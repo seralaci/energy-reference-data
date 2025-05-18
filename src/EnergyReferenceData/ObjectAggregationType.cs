@@ -17,7 +17,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns an area.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Metering point
@@ -25,7 +25,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns a metering point.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Party
@@ -33,7 +33,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns a party.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Agreement Identification
@@ -41,7 +41,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns an agreement identification.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Accounting point
@@ -49,7 +49,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns an accounting point.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Resource Object
@@ -57,7 +57,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns a resource object.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Tieline
@@ -65,7 +65,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns a tieline.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// Resource type
@@ -73,7 +73,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns a resource type.
     /// </remarks>
-    A08,
+    A08 = 8,
 
     /// <summary>
     /// DC link
@@ -81,7 +81,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns a DC link.
     /// </remarks>
-    A09,
+    A09 = 9,
 
     /// <summary>
     /// AC link
@@ -89,7 +89,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns an AC link.
     /// </remarks>
-    A10,
+    A10 = 10,
 
     /// <summary>
     /// Merchant line
@@ -97,7 +97,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns a merchant line.
     /// </remarks>
-    A11,
+    A11 = 11,
 
     /// <summary>
     /// Bidding zone
@@ -105,7 +105,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The largest geographical area within which market participants are able to exchange energy without capacity allocation.
     /// </remarks>
-    A12,
+    A12 = 12,
 
     /// <summary>
     /// Virtual bidding zone
@@ -113,7 +113,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// A non-geographical bidding zone to be able to apply extra constraints to Bidding Zones.
     /// </remarks>
-    A13,
+    A13 = 13,
 
     /// <summary>
     /// Metering grid area
@@ -121,7 +121,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// A physical area where consumption, production and exchange can be measured. It is delimited by the placement of meters for continuous measurement for input to, and withdrawal from the area.
     /// </remarks>
-    A14,
+    A14 = 14,
 
     /// <summary>
     /// Scheduling area
@@ -129,7 +129,7 @@ public enum ObjectAggregationType
     /// <remarks>
     /// An area within which the TSOs' obligations regarding scheduling apply due to operational or organisational needs.
     /// </remarks>
-    A15,
+    A15 = 15,
 
     /// <summary>
     /// Exchange point
@@ -137,6 +137,6 @@ public enum ObjectAggregationType
     /// <remarks>
     /// The object being described concerns an exchange point.
     /// </remarks>
-    A16
+    A16 = 16
 }
 

@@ -17,7 +17,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The coding scheme is the Energy Identification Coding Scheme (EIC), maintained by ENTSO-E.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// CGM
@@ -25,7 +25,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The coding scheme used for Common Grid Model Exchange Standard (CGMES).
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Coding scheme which are part of GS1 system
@@ -33,7 +33,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The coding schemes maintained by GS1.
     /// </remarks>
-    A10,
+    A10 = 3,
 
     /// <summary>
     /// Andorra National coding scheme
@@ -41,7 +41,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NAD,
+    NAD = 4,
 
     /// <summary>
     /// Albania National coding scheme
@@ -49,7 +49,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NAL,
+    NAL = 5,
 
     /// <summary>
     /// Armenia National coding scheme
@@ -57,7 +57,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NAM,
+    NAM = 6,
 
     /// <summary>
     /// Austria National coding scheme
@@ -65,7 +65,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NAT,
+    NAT = 7,
 
     /// <summary>
     /// Azerbaijan National coding scheme
@@ -73,7 +73,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NAZ,
+    NAZ = 8,
 
     /// <summary>
     /// Bosnia and Herzegovina National coding scheme
@@ -81,7 +81,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NBA,
+    NBA = 9,
 
     /// <summary>
     /// Belgium National coding scheme
@@ -89,7 +89,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NBE,
+    NBE = 10,
 
     /// <summary>
     /// Bulgaria National coding scheme
@@ -97,7 +97,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NBG,
+    NBG = 11,
 
     /// <summary>
     /// Switzerland National coding scheme
@@ -105,7 +105,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NCH,
+    NCH = 12,
 
     /// <summary>
     /// Serbia and Montenegro National coding scheme
@@ -113,7 +113,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NCS,
+    NCS = 13,
 
     /// <summary>
     /// Cyprus National coding scheme
@@ -121,7 +121,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NCY,
+    NCY = 14,
 
     /// <summary>
     /// Czech Republic National coding scheme
@@ -129,7 +129,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NCZ,
+    NCZ = 15,
 
     /// <summary>
     /// Germany National coding scheme
@@ -137,7 +137,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NDE,
+    NDE = 16,
 
     /// <summary>
     /// Denmark National coding scheme
@@ -145,7 +145,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NDK,
+    NDK = 17,
 
     /// <summary>
     /// Estonia National coding scheme
@@ -153,7 +153,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NEE,
+    NEE = 18,
 
     /// <summary>
     /// Spain National coding scheme
@@ -161,7 +161,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NES,
+    NES = 19,
 
     /// <summary>
     /// Finland National coding scheme
@@ -169,7 +169,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NFI,
+    NFI = 20,
 
     /// <summary>
     /// France National coding scheme
@@ -177,7 +177,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NFR,
+    NFR = 21,
 
     /// <summary>
     /// United Kingdom National coding scheme
@@ -185,7 +185,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NGB,
+    NGB = 22,
 
     /// <summary>
     /// Georgia National coding scheme
@@ -193,7 +193,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NGE,
+    NGE = 23,
 
     /// <summary>
     /// Gibraltar National coding scheme
@@ -201,7 +201,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NGI,
+    NGI = 24,
 
     /// <summary>
     /// Greece National coding scheme
@@ -209,7 +209,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NGR,
+    NGR = 25,
 
     /// <summary>
     /// Croatia National coding scheme
@@ -217,7 +217,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NHR,
+    NHR = 26,
 
     /// <summary>
     /// Hungary National coding scheme
@@ -225,7 +225,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NHU,
+    NHU = 27,
 
     /// <summary>
     /// Ireland National coding scheme
@@ -233,7 +233,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NIE,
+    NIE = 28,
 
     /// <summary>
     /// Italy National coding scheme
@@ -241,7 +241,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NIT,
+    NIT = 29,
 
     /// <summary>
     /// Kyrgyzstan National coding scheme
@@ -249,7 +249,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NKG,
+    NKG = 30,
 
     /// <summary>
     /// Kazakhstan National coding scheme
@@ -257,7 +257,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NKZ,
+    NKZ = 31,
 
     /// <summary>
     /// Liechtenstein National coding scheme
@@ -265,7 +265,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NLI,
+    NLI = 32,
 
     /// <summary>
     /// Lithuania National coding scheme
@@ -273,7 +273,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NLT,
+    NLT = 33,
 
     /// <summary>
     /// Luxembourg National coding scheme
@@ -281,7 +281,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NLU,
+    NLU = 34,
 
     /// <summary>
     /// Latvia National coding scheme
@@ -289,7 +289,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NLV,
+    NLV = 35,
 
     /// <summary>
     /// Morocco National coding scheme
@@ -297,7 +297,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NMA,
+    NMA = 36,
 
     /// <summary>
     /// Moldavia National coding scheme
@@ -305,7 +305,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NMD,
+    NMD = 37,
 
     /// <summary>
     /// Macedonia National coding scheme
@@ -313,7 +313,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NMK,
+    NMK = 38,
 
     /// <summary>
     /// Netherlands National coding scheme
@@ -321,7 +321,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NNL,
+    NNL = 39,
 
     /// <summary>
     /// Nordic Regional coding scheme
@@ -329,7 +329,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The coding scheme of the Nordic region which covers Denmark, Finland, Norway and Sweden.
     /// </remarks>
-    NNN,
+    NNN = 40,
 
     /// <summary>
     /// Norway National coding scheme
@@ -337,7 +337,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NNO,
+    NNO = 41,
 
     /// <summary>
     /// Poland National coding scheme
@@ -345,7 +345,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NPL,
+    NPL = 42,
 
     /// <summary>
     /// Portugal National coding scheme
@@ -353,7 +353,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NPT,
+    NPT = 43,
 
     /// <summary>
     /// Romania National coding scheme
@@ -361,7 +361,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NRO,
+    NRO = 44,
 
     /// <summary>
     /// Russian Federation National coding scheme
@@ -369,7 +369,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NRU,
+    NRU = 45,
 
     /// <summary>
     /// Sweden National coding scheme
@@ -377,7 +377,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NSE,
+    NSE = 46,
 
     /// <summary>
     /// Slovenia National coding scheme
@@ -385,7 +385,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NSI,
+    NSI = 47,
 
     /// <summary>
     /// Slovakia National coding scheme
@@ -393,7 +393,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NSK,
+    NSK = 48,
 
     /// <summary>
     /// Turkey National coding scheme
@@ -401,7 +401,7 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NTR,
+    NTR = 49,
 
     /// <summary>
     /// Ukraine National coding scheme
@@ -409,6 +409,6 @@ public enum CodingSchemeType
     /// <remarks>
     /// The National coding scheme of the country in question.
     /// </remarks>
-    NUA
+    NUA = 50
 }
 

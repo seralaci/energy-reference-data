@@ -1,6 +1,8 @@
 // Based on ENTSO-E codelist 92 Release Date: 2025-01-13
 // https://www.entsoe.eu/publications/electronic-data-interchange-edi-library/
 
+using System.Xml.Serialization;
+
 namespace EnergyReferenceData;
 
 /// <summary>
@@ -17,7 +19,8 @@ public enum EnergyProductType
     /// <remarks>
     /// The product of voltage and the in-phase component of alternating current measured in units of watts and standard multiples thereof.
     /// </remarks>
-    _8716867000016,
+    [XmlEnum("8716867000016")]
+    ActivePower = 1,
 
     /// <summary>
     /// Reactive power
@@ -25,7 +28,8 @@ public enum EnergyProductType
     /// <remarks>
     /// The product of voltage and current and the sine of the phase angle between them, measured in units of voltamperes reactive and standard multiples thereof. (not used for planned schedules).
     /// </remarks>
-    _8716867000023,
+    [XmlEnum("8716867000023")]
+    ReactivePower = 2,
 
     /// <summary>
     /// Active energy
@@ -33,7 +37,8 @@ public enum EnergyProductType
     /// <remarks>
     /// The electrical energy produced, flowing or supplied by an electrical circuit during a time interval, being the integral with respect to time of instantaneous active power, measured in units of watt-hours, or standard multiples thereof.
     /// </remarks>
-    _8716867000030,
+    [XmlEnum("8716867000030")]
+    ActiveEnergy = 3,
 
     /// <summary>
     /// Reactive energy
@@ -41,7 +46,8 @@ public enum EnergyProductType
     /// <remarks>
     /// The integral with respect to time of reactive power (not used for planned schedules).
     /// </remarks>
-    _8716867000047,
+    [XmlEnum("8716867000030")]
+    ReactiveEnergy = 4,
 
     /// <summary>
     /// Capacitive reactive power
@@ -49,7 +55,8 @@ public enum EnergyProductType
     /// <remarks>
     /// Capacitive reactive power.
     /// </remarks>
-    _8716867000115,
+    [XmlEnum("8716867000115")]
+    CapacitiveReactivePower = 5,
 
     /// <summary>
     /// Inductive reactive power
@@ -57,7 +64,8 @@ public enum EnergyProductType
     /// <remarks>
     /// Inductive reactive power.
     /// </remarks>
-    _8716867000122,
+    [XmlEnum("8716867000122")]
+    InductiveReactivePower = 6,
 
     /// <summary>
     /// Capacitive Reactive energy
@@ -65,7 +73,8 @@ public enum EnergyProductType
     /// <remarks>
     /// Capacitive reactive energy.
     /// </remarks>
-    _8716867000139,
+    [XmlEnum("8716867000139")]
+    CapacitiveReactiveEnergy = 7,
 
     /// <summary>
     /// Inductive Reactive energy
@@ -73,7 +82,8 @@ public enum EnergyProductType
     /// <remarks>
     /// Inductive reactive energy.
     /// </remarks>
-    _8716867000146,
+    [XmlEnum("8716867000146")]
+    InductiveReactiveEnergy = 8,
 
     /// <summary>
     /// Water
@@ -81,6 +91,7 @@ public enum EnergyProductType
     /// <remarks>
     /// For hydro power stations, this enables the identification of the quantity of water stored behind a dam (volume, head level, etc.), or the constraints in the flow of water.
     /// </remarks>
-    _8716867009911
+    [XmlEnum("8716867009911")]
+    Water = 9
 }
 

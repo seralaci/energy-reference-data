@@ -17,7 +17,7 @@ public enum TarifTypeType
     /// <remarks>
     /// Winter HT tariff.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Winter HHT
@@ -25,7 +25,7 @@ public enum TarifTypeType
     /// <remarks>
     /// Winter HHT tariff.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Winter NT
@@ -33,7 +33,7 @@ public enum TarifTypeType
     /// <remarks>
     /// Winter NT tariff.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Summer HT
@@ -41,7 +41,7 @@ public enum TarifTypeType
     /// <remarks>
     /// Summer HT tariff.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Summer HHT1
@@ -49,7 +49,7 @@ public enum TarifTypeType
     /// <remarks>
     /// Summer HHT1 tariff.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Summer HHT2
@@ -57,7 +57,7 @@ public enum TarifTypeType
     /// <remarks>
     /// Summer HHT2 tariff.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Summer NT
@@ -65,6 +65,6 @@ public enum TarifTypeType
     /// <remarks>
     /// Summer NT tariff.
     /// </remarks>
-    A07
+    A07 = 7
 }
 

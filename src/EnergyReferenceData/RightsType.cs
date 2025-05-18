@@ -17,7 +17,7 @@ public enum RightsType
     /// <remarks>
     /// Any rights not nominated shall be lost.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Use It Or Sell It
@@ -25,7 +25,7 @@ public enum RightsType
     /// <remarks>
     /// Any rights that are not nominated shall be sold.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Allocation curtailment possible
@@ -33,7 +33,7 @@ public enum RightsType
     /// <remarks>
     /// Rights acquired may be curtailed.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Nomination curtailment possible
@@ -41,7 +41,7 @@ public enum RightsType
     /// <remarks>
     /// Rights acquired may be curtailed at nomination.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Resale possible
@@ -49,7 +49,7 @@ public enum RightsType
     /// <remarks>
     /// Acquired rights may be resold.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Transfer possible
@@ -57,6 +57,6 @@ public enum RightsType
     /// <remarks>
     /// Acquired rights may be transferred.
     /// </remarks>
-    A06
+    A06 = 6
 }
 

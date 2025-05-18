@@ -17,7 +17,7 @@ public enum CurveType
     /// <remarks>
     /// The curve is made of successive Intervals of time (Blocks) of constant duration (size), where the size of the Blocks is equal to the Resolution of the Period.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Point
@@ -25,7 +25,7 @@ public enum CurveType
     /// <remarks>
     /// The curve is made of successive instants of time (Points).
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Variable sized Block
@@ -33,7 +33,7 @@ public enum CurveType
     /// <remarks>
     /// The curve is made of successive Intervals of time (Blocks) of variable duration (size), where the end date and end time of each Block are equal to the start date and start time of the next Interval. For the last Block the end date and end time of the last Interval would be equal to EndDateTime of TimeInterval.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Overlapping breakpoint
@@ -41,7 +41,7 @@ public enum CurveType
     /// <remarks>
     /// The curve is made of successive Intervals of time of variable duration (size), where the end date and end time of each interval are equal to the start date and start time of the next Interval.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Non-overlapping breakpoint
@@ -49,6 +49,6 @@ public enum CurveType
     /// <remarks>
     /// This curve is a restriction of the curve type A04, i.e. overlapping breakpoints. The restriction is that a single Period is allowed.
     /// </remarks>
-    A05
+    A05 = 5
 }
 

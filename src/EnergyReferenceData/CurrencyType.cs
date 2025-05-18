@@ -17,7 +17,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Bosnia and Herzegovina.
     /// </remarks>
-    BAM,
+    BAM = 1,
 
     /// <summary>
     /// Bulgarian lev
@@ -25,7 +25,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Bulgaria.
     /// </remarks>
-    BGN,
+    BGN = 2,
 
     /// <summary>
     /// Swiss Franc
@@ -33,7 +33,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Switzerland.
     /// </remarks>
-    CHF,
+    CHF = 3,
 
     /// <summary>
     /// Czech Koruna
@@ -41,7 +41,7 @@ public enum CurrencyType
     /// <remarks>
     /// The legal tender of the Czech Republic.
     /// </remarks>
-    CZK,
+    CZK = 4,
 
     /// <summary>
     /// Danish Kroner 
@@ -49,7 +49,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Denmark.
     /// </remarks>
-    DKK,
+    DKK = 5,
 
     /// <summary>
     /// EURO
@@ -57,7 +57,7 @@ public enum CurrencyType
     /// <remarks>
     /// The European legal tender.
     /// </remarks>
-    EUR,
+    EUR = 6,
 
     /// <summary>
     /// Pound Sterling
@@ -65,7 +65,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of the United Kingdom.
     /// </remarks>
-    GBP,
+    GBP = 7,
 
     /// <summary>
     /// Croatian kuna
@@ -73,7 +73,7 @@ public enum CurrencyType
     /// <remarks>
     /// The legal tender of Croatia.
     /// </remarks>
-    HRK,
+    HRK = 8,
 
     /// <summary>
     /// Hungarian Forint
@@ -81,7 +81,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Hungary.
     /// </remarks>
-    HUF,
+    HUF = 9,
 
     /// <summary>
     /// Icelandic krona
@@ -89,7 +89,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Iceland.
     /// </remarks>
-    ISK,
+    ISK = 10,
 
     /// <summary>
     /// Albanian lek
@@ -97,7 +97,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Albania.
     /// </remarks>
-    LEK,
+    LEK = 11,
 
     /// <summary>
     /// Lithuanian litas
@@ -105,7 +105,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Lithuania
     /// </remarks>
-    LTL,
+    LTL = 12,
 
     /// <summary>
     /// Macedonian denar
@@ -113,7 +113,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of FYROM.
     /// </remarks>
-    MKD,
+    MKD = 13,
 
     /// <summary>
     /// Norwegian Kroner 
@@ -121,7 +121,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Norway.
     /// </remarks>
-    NOK,
+    NOK = 14,
 
     /// <summary>
     /// Polish zloty
@@ -129,7 +129,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Poland.
     /// </remarks>
-    PLN,
+    PLN = 15,
 
     /// <summary>
     /// Romanian Leu
@@ -137,7 +137,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Romania.
     /// </remarks>
-    RON,
+    RON = 16,
 
     /// <summary>
     /// Serbian dinar
@@ -145,7 +145,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Serbian Republic.
     /// </remarks>
-    RSD,
+    RSD = 17,
 
     /// <summary>
     /// Saudi Arabian Riyal
@@ -153,7 +153,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Saudi Arabia.
     /// </remarks>
-    SAR,
+    SAR = 18,
 
     /// <summary>
     /// Swedish kroner
@@ -161,7 +161,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Sweden.
     /// </remarks>
-    SEK,
+    SEK = 19,
 
     /// <summary>
     /// Slovak Koruna
@@ -169,7 +169,7 @@ public enum CurrencyType
     /// <remarks>
     /// The legal tender of Slovakia.
     /// </remarks>
-    SKK,
+    SKK = 20,
 
     /// <summary>
     /// New Turkish Lira
@@ -177,7 +177,7 @@ public enum CurrencyType
     /// <remarks>
     /// The Legal tender of Turkey.
     /// </remarks>
-    TRY,
+    TRY = 21,
 
     /// <summary>
     /// Ukrainian hryvnia
@@ -185,7 +185,7 @@ public enum CurrencyType
     /// <remarks>
     /// The legal tender of Ukraine.
     /// </remarks>
-    UAH,
+    UAH = 22,
 
     /// <summary>
     /// US Dollar
@@ -193,6 +193,6 @@ public enum CurrencyType
     /// <remarks>
     /// The legal tender of the USA.
     /// </remarks>
-    USD
+    USD = 23
 }
 

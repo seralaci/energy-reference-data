@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Library</OutputType>
-        <Version>0.1.4</Version>
+        <Version>0.1.5</Version>
         <PackageId>EnergyReferenceData</PackageId>
         <PackageDescription>
             ENTSO-E codelist 92 Release

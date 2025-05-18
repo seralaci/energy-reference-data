@@ -17,7 +17,7 @@ public enum AuctionType
     /// <remarks>
     /// The auction is an implicit auction.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Explicit
@@ -25,7 +25,7 @@ public enum AuctionType
     /// <remarks>
     /// The auction is an explicit auction.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Rule Based
@@ -33,7 +33,7 @@ public enum AuctionType
     /// <remarks>
     /// The auction is a rule based auction.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Mixed
@@ -41,7 +41,7 @@ public enum AuctionType
     /// <remarks>
     /// The auction is partially implicit and partially explicit.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Explicit/split
@@ -49,7 +49,7 @@ public enum AuctionType
     /// <remarks>
     /// The auction concerns two explicit auctions on a split border.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Shadow auction
@@ -57,7 +57,7 @@ public enum AuctionType
     /// <remarks>
     /// An explicit auction carried out in the case of the failure of an implicit auction.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Flow-based
@@ -65,7 +65,7 @@ public enum AuctionType
     /// <remarks>
     /// The allocation is an implicit auction using flow-based capacity calculation.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// Continuous
@@ -73,6 +73,6 @@ public enum AuctionType
     /// <remarks>
     /// The auction type is continuous, i.e. there is no gate closure time when bids from the market participants are collected. Instead allocation procedure takes place immediately.
     /// </remarks>
-    A08
+    A08 = 8
 }
 

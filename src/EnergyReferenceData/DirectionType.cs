@@ -17,7 +17,7 @@ public enum DirectionType
     /// <remarks>
     /// Up signifies that the available power can be used by the Purchasing area to increase energy.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// DOWN
@@ -25,7 +25,7 @@ public enum DirectionType
     /// <remarks>
     /// Down signifies that the available power can be used by the Purchasing area to decrease energy.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// UP and DOWN
@@ -33,7 +33,7 @@ public enum DirectionType
     /// <remarks>
     /// Up and Down signifies that the UP and Down values are equal.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Stable
@@ -41,6 +41,6 @@ public enum DirectionType
     /// <remarks>
     /// The direction at a given instant in time is considered to be stable.
     /// </remarks>
-    A04
+    A04 = 4
 }
 

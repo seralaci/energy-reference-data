@@ -17,7 +17,7 @@ public enum UnitSymbol
     /// <remarks>
     /// The unit of electrical current in the International system of Units (SI) equivalent to one Coulomb per second.
     /// </remarks>
-    AMP,
+    AMP = 1,
 
     /// <summary>
     /// One
@@ -25,7 +25,7 @@ public enum UnitSymbol
     /// <remarks>
     /// A unit for dimensionless quantities, also called quantities of dimension one.
     /// </remarks>
-    C62,
+    C62 = 2,
 
     /// <summary>
     /// degree (unit of angle)
@@ -33,7 +33,7 @@ public enum UnitSymbol
     /// <remarks>
     /// A unit of measurement of angles expressed in a 0 to 360 degree gradient.
     /// </remarks>
-    DD,
+    DD = 3,
 
     /// <summary>
     /// grams per kilowatt hour
@@ -41,7 +41,7 @@ public enum UnitSymbol
     /// <remarks>
     /// It represents the mass rate of emissions per unit of work accomplished.
     /// </remarks>
-    GKH,
+    GKH = 4,
 
     /// <summary>
     /// Hertz
@@ -49,7 +49,7 @@ public enum UnitSymbol
     /// <remarks>
     /// HTZ unit as per UN/CEFACT recommendation 20
     /// </remarks>
-    HTZ,
+    HTZ = 5,
 
     /// <summary>
     /// kV
@@ -57,7 +57,7 @@ public enum UnitSymbol
     /// <remarks>
     /// The symbol of kV
     /// </remarks>
-    KVT,
+    KVT = 6,
 
     /// <summary>
     /// MVAr
@@ -65,7 +65,7 @@ public enum UnitSymbol
     /// <remarks>
     /// The symbol of MVAr
     /// </remarks>
-    MAR,
+    MAR = 7,
 
     /// <summary>
     /// MW
@@ -73,7 +73,7 @@ public enum UnitSymbol
     /// <remarks>
     /// The symbol of MW
     /// </remarks>
-    MAW,
+    MAW = 8,
 
     /// <summary>
     /// megavolt-ampere
@@ -81,7 +81,7 @@ public enum UnitSymbol
     /// <remarks>
     /// MVA unit as per UN/CEFACT recommendation 20
     /// </remarks>
-    MVA,
+    MVA = 9,
 
     /// <summary>
     /// Ohm
@@ -89,7 +89,7 @@ public enum UnitSymbol
     /// <remarks>
     /// The symbol of Ohm Unit
     /// </remarks>
-    OHM,
+    OHM = 10,
 
     /// <summary>
     /// Percent
@@ -97,6 +97,6 @@ public enum UnitSymbol
     /// <remarks>
     /// A unit of proportion equal to 0.01.
     /// </remarks>
-    P1
+    P1 = 11
 }
 

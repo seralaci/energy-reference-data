@@ -17,7 +17,7 @@ public enum QualityType
     /// <remarks>
     /// The contents of the object have been adjusted.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Not available
@@ -25,7 +25,7 @@ public enum QualityType
     /// <remarks>
     /// The contents of the object are not available.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Estimated
@@ -33,7 +33,7 @@ public enum QualityType
     /// <remarks>
     /// The contents of the object are estimated. The code is typically used when measured values are missing and an estimate is made based on historical data. 
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// As provided
@@ -41,7 +41,7 @@ public enum QualityType
     /// <remarks>
     /// The contents of the object are as provided.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Incomplete
@@ -49,7 +49,7 @@ public enum QualityType
     /// <remarks>
     /// The contents of the object are calculated based on incomplete data.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Calculated
@@ -57,6 +57,6 @@ public enum QualityType
     /// <remarks>
     /// The contents of the object are calculated. The code is typically used when a value is calculated based on several other known values.
     /// </remarks>
-    A06
+    A06 = 6
 }
 

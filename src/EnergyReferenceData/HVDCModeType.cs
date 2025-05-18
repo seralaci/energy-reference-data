@@ -17,7 +17,7 @@ public enum HVDCModeType
     /// <remarks>
     /// The code for the "power setpoint" mode of operation of the HVDC link.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Proportional external signal
@@ -25,7 +25,7 @@ public enum HVDCModeType
     /// <remarks>
     /// The code for the "Proportional external signal" mode of operation of the HVDC link.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// AC emulation
@@ -33,6 +33,6 @@ public enum HVDCModeType
     /// <remarks>
     /// The code for the "AC emulation" mode of operation of the HVDC link.
     /// </remarks>
-    A03
+    A03 = 3
 }
 

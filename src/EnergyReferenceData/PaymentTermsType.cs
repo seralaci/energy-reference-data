@@ -17,7 +17,7 @@ public enum PaymentTermsType
     /// <remarks>
     /// The amount to be paid shall correspond to the amount bid.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Pay as cleared
@@ -25,7 +25,7 @@ public enum PaymentTermsType
     /// <remarks>
     /// The amount to be paid shall correspond to the amount calculated for clearing.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// No payment terms
@@ -33,6 +33,6 @@ public enum PaymentTermsType
     /// <remarks>
     /// There are no payment terms to be used.
     /// </remarks>
-    A03
+    A03 = 3
 }
 

@@ -17,7 +17,7 @@ public enum MessageType
     /// <remarks>
     /// A schedule which has been prepared by a balance responsible party providing planned schedule information.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Allocated capacity schedule
@@ -25,7 +25,7 @@ public enum MessageType
     /// <remarks>
     /// A schedule which has been prepared by a capacity allocator providing allocated capacity.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Balance area schedule
@@ -33,7 +33,7 @@ public enum MessageType
     /// <remarks>
     /// A schedule that provides the planned schedule information for a balance area.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// System Operator area schedule
@@ -41,7 +41,7 @@ public enum MessageType
     /// <remarks>
     /// A compilation of all external schedules concerning two System Operator areas or a connector concerning two System Operator of all balance responsible parties.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Control block area schedule
@@ -49,7 +49,7 @@ public enum MessageType
     /// <remarks>
     /// A compilation of all the exchange programs of all control areas for one control block with all neighbouring control areas of a neighbouring control block.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Coordination center area schedule
@@ -57,7 +57,7 @@ public enum MessageType
     /// <remarks>
     /// A compilation of the exchange programs of all exchange blocks divided into UCTE south and north.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Intermediate confirmation report
@@ -65,7 +65,7 @@ public enum MessageType
     /// <remarks>
     /// An intermediate confirmation report that may be produced between final cutoffs.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// Final confirmation report
@@ -73,7 +73,7 @@ public enum MessageType
     /// <remarks>
     /// A final confirmation report that is produced after a final cutoff.
     /// </remarks>
-    A08,
+    A08 = 8,
 
     /// <summary>
     /// Finalised schedule
@@ -81,7 +81,7 @@ public enum MessageType
     /// <remarks>
     /// A compilation of a set of schedules that have been finalized after a given cutoff.
     /// </remarks>
-    A09,
+    A09 = 9,
 
     /// <summary>
     /// Regulation data report
@@ -89,7 +89,7 @@ public enum MessageType
     /// <remarks>
     /// A compilation of the time series employed on a given day to ensure the balance of the system.
     /// </remarks>
-    A10,
+    A10 = 10,
 
     /// <summary>
     /// Aggregated energy data report
@@ -97,7 +97,7 @@ public enum MessageType
     /// <remarks>
     /// A compilation of the time series of all the meter readings or their equivalent for a given period.
     /// </remarks>
-    A11,
+    A11 = 11,
 
     /// <summary>
     /// Imbalance report
@@ -105,7 +105,7 @@ public enum MessageType
     /// <remarks>
     /// The report containing the complete situation of a given period for a party and including the schedules, regulation data and actual or calculated readings.
     /// </remarks>
-    A12,
+    A12 = 12,
 
     /// <summary>
     /// Interconnection Capacity
@@ -113,7 +113,7 @@ public enum MessageType
     /// <remarks>
     /// Document for cross-border capacity exchanges.
     /// </remarks>
-    A13,
+    A13 = 13,
 
     /// <summary>
     /// Resource Provider Resource Schedule
@@ -121,7 +121,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the schedules for resource objects submitted by a resource provider.
     /// </remarks>
-    A14,
+    A14 = 14,
 
     /// <summary>
     /// Acquiring System Operator Reserve Schedule
@@ -129,7 +129,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing reserve purchases submitted by an Acquiring System Operator.
     /// </remarks>
-    A15,
+    A15 = 15,
 
     /// <summary>
     /// Anomaly Report
@@ -137,7 +137,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing anomaly information for the receiving party to correct.
     /// </remarks>
-    A16,
+    A16 = 16,
 
     /// <summary>
     /// Acknowledgement Document
@@ -145,7 +145,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing acknowledgement information.
     /// </remarks>
-    A17,
+    A17 = 17,
 
     /// <summary>
     /// Confirmation report
@@ -153,7 +153,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing confirmation information.
     /// </remarks>
-    A18,
+    A18 = 18,
 
     /// <summary>
     /// Capacity for Resale
@@ -161,7 +161,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing information about capacity for resale.
     /// </remarks>
-    A19,
+    A19 = 19,
 
     /// <summary>
     /// Approved Capacity Transfer
@@ -169,7 +169,7 @@ public enum MessageType
     /// <remarks>
     /// A document to approve a capacity transfer.
     /// </remarks>
-    A20,
+    A20 = 20,
 
     /// <summary>
     /// Capacity transfer notification
@@ -177,7 +177,7 @@ public enum MessageType
     /// <remarks>
     /// A document notifying a capacity transfer.
     /// </remarks>
-    A21,
+    A21 = 21,
 
     /// <summary>
     /// Transmission rights portfolio
@@ -185,7 +185,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the portfolio of the transmission capacity rights of a market participant.
     /// </remarks>
-    A22,
+    A22 = 22,
 
     /// <summary>
     /// Allocations
@@ -193,7 +193,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the capacity allocations for a border.
     /// </remarks>
-    A23,
+    A23 = 23,
 
     /// <summary>
     /// Bid document
@@ -201,7 +201,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing bid information.
     /// </remarks>
-    A24,
+    A24 = 24,
 
     /// <summary>
     /// Allocation result document
@@ -209,7 +209,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the allocation results of an auction.
     /// </remarks>
-    A25,
+    A25 = 25,
 
     /// <summary>
     /// Capacity document
@@ -217,7 +217,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing capacity information.
     /// </remarks>
-    A26,
+    A26 = 26,
 
     /// <summary>
     /// Rights document
@@ -225,7 +225,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing transmission capacity rights information.
     /// </remarks>
-    A27,
+    A27 = 27,
 
     /// <summary>
     /// Generation availability schedule
@@ -233,7 +233,7 @@ public enum MessageType
     /// <remarks>
     /// This document contains information related to energy availability.
     /// </remarks>
-    A28,
+    A28 = 28,
 
     /// <summary>
     /// Cross border schedule
@@ -241,7 +241,7 @@ public enum MessageType
     /// <remarks>
     /// This document contains the cross border schedules for all the borders of a given country where energy is exchanged.
     /// </remarks>
-    A30,
+    A30 = 29,
 
     /// <summary>
     /// Agreed capacity
@@ -249,7 +249,7 @@ public enum MessageType
     /// <remarks>
     /// The capacity agreed between parties.
     /// </remarks>
-    A31,
+    A31 = 30,
 
     /// <summary>
     /// Proposed capacity
@@ -257,7 +257,7 @@ public enum MessageType
     /// <remarks>
     /// The capacity proposed for agreement between parties.
     /// </remarks>
-    A32,
+    A32 = 31,
 
     /// <summary>
     /// System vertical load
@@ -265,7 +265,7 @@ public enum MessageType
     /// <remarks>
     /// The sum of all flows out of the transmission grid via directly connected transformers and lines to distribution grids and end consumers as known by the System Operator.
     /// </remarks>
-    A33,
+    A33 = 32,
 
     /// <summary>
     /// Escalation document
@@ -273,7 +273,7 @@ public enum MessageType
     /// <remarks>
     /// A document which requesting the escalation of a situation.
     /// </remarks>
-    A34,
+    A34 = 33,
 
     /// <summary>
     /// Trouble shooting document
@@ -281,7 +281,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing trouble shooting information for the resolution of a problem.
     /// </remarks>
-    A35,
+    A35 = 34,
 
     /// <summary>
     /// Deactivation document
@@ -289,7 +289,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing deactivation information.
     /// </remarks>
-    A36,
+    A36 = 35,
 
     /// <summary>
     /// Reserve tender document
@@ -297,7 +297,7 @@ public enum MessageType
     /// <remarks>
     /// The document that is used for the tendering for reserves within the ERRP process.
     /// </remarks>
-    A37,
+    A37 = 36,
 
     /// <summary>
     /// Reserve Allocation Result Document
@@ -305,7 +305,7 @@ public enum MessageType
     /// <remarks>
     /// The document used to provide the results of a Reserve auction.
     /// </remarks>
-    A38,
+    A38 = 37,
 
     /// <summary>
     /// SATCR activation
@@ -313,7 +313,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide the activation of reserves through the SATCR process.
     /// </remarks>
-    A39,
+    A39 = 38,
 
     /// <summary>
     /// DATCR activation
@@ -321,7 +321,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide the activation of reserves through the DATCR process.
     /// </remarks>
-    A40,
+    A40 = 39,
 
     /// <summary>
     /// Activation response
@@ -329,7 +329,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide a response to a request to activate reserves.
     /// </remarks>
-    A41,
+    A41 = 40,
 
     /// <summary>
     /// Tender reduction
@@ -337,7 +337,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide information concerning the reduction of a previously submitted tender.
     /// </remarks>
-    A42,
+    A42 = 41,
 
     /// <summary>
     /// MOL Document
@@ -345,7 +345,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide Merit Order List information.
     /// </remarks>
-    A43,
+    A43 = 42,
 
     /// <summary>
     /// Price Document
@@ -353,7 +353,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide market price information.
     /// </remarks>
-    A44,
+    A44 = 43,
 
     /// <summary>
     /// Measurement Value Document
@@ -361,7 +361,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide measurement information from measurement devices.
     /// </remarks>
-    A45,
+    A45 = 44,
 
     /// <summary>
     /// SOAM Document
@@ -369,7 +369,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide system operator accounting data for matching.
     /// </remarks>
-    A46,
+    A46 = 45,
 
     /// <summary>
     /// SOVA Document
@@ -377,7 +377,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide system operator validated accounting data.
     /// </remarks>
-    A47,
+    A47 = 46,
 
     /// <summary>
     /// CCVA Document
@@ -385,7 +385,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide coordination center validated accounting data.
     /// </remarks>
-    A48,
+    A48 = 47,
 
     /// <summary>
     /// Daily settlement document
@@ -393,7 +393,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide daily settlement information.
     /// </remarks>
-    A49,
+    A49 = 48,
 
     /// <summary>
     /// Weekly settlement document
@@ -401,7 +401,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide weekly settlement information.
     /// </remarks>
-    A50,
+    A50 = 49,
 
     /// <summary>
     /// Capacity Auction Specification Document
@@ -409,7 +409,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide capacity auction specification information.
     /// </remarks>
-    A51,
+    A51 = 50,
 
     /// <summary>
     /// Market Coupling Results Document
@@ -417,7 +417,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide the results of a market coupling auction.
     /// </remarks>
-    A52,
+    A52 = 51,
 
     /// <summary>
     /// Outage publication Document
@@ -425,7 +425,7 @@ public enum MessageType
     /// <remarks>
     /// The document is used to provide the outage information for publication.
     /// </remarks>
-    A53,
+    A53 = 52,
 
     /// <summary>
     /// Forced generation outage Document
@@ -433,7 +433,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing information on forced generation outages.
     /// </remarks>
-    A54,
+    A54 = 53,
 
     /// <summary>
     /// Summarised Market Schedule
@@ -441,7 +441,7 @@ public enum MessageType
     /// <remarks>
     /// A compilation of all external schedules concerning two Market Balance Areas of all balance responsible parties.
     /// </remarks>
-    A55,
+    A55 = 54,
 
     /// <summary>
     /// Compensation Program Schedule
@@ -449,7 +449,7 @@ public enum MessageType
     /// <remarks>
     /// A schedule that provides the schedule information for the compensation of unintended deviation.
     /// </remarks>
-    A56,
+    A56 = 55,
 
     /// <summary>
     /// Load Frequency Control Program Schedule
@@ -457,7 +457,7 @@ public enum MessageType
     /// <remarks>
     /// A schedule that provides the schedule information for the Load Frequency Control Program of a Control Area or a Control Block.
     /// </remarks>
-    A57,
+    A57 = 56,
 
     /// <summary>
     /// Timeframe Independent Schedule
@@ -465,7 +465,7 @@ public enum MessageType
     /// <remarks>
     /// A compilation of all external Timeframe Independent Schedules concerning two System Operators.
     /// </remarks>
-    A58,
+    A58 = 57,
 
     /// <summary>
     /// Information request
@@ -473,7 +473,7 @@ public enum MessageType
     /// <remarks>
     /// An information request being made concerning some specific information.
     /// </remarks>
-    A59,
+    A59 = 58,
 
     /// <summary>
     /// status request for a position independently from a specific process
@@ -481,7 +481,7 @@ public enum MessageType
     /// <remarks>
     /// A status request concerning the position of an object independently of any ongoing processes.
     /// </remarks>
-    A60,
+    A60 = 59,
 
     /// <summary>
     /// Estimated Net Transfer Capacity
@@ -489,7 +489,7 @@ public enum MessageType
     /// <remarks>
     /// The estimated net transfer capacity for a given border.
     /// </remarks>
-    A61,
+    A61 = 60,
 
     /// <summary>
     /// Compensation rights
@@ -497,7 +497,7 @@ public enum MessageType
     /// <remarks>
     /// The capacity rights that have been allocated as compensation.
     /// </remarks>
-    A62,
+    A62 = 61,
 
     /// <summary>
     /// Redispatch notice
@@ -505,7 +505,7 @@ public enum MessageType
     /// <remarks>
     /// A notice to confirm the actions agreed between System Operators to resolve a congestion situation through redispatch.
     /// </remarks>
-    A63,
+    A63 = 62,
 
     /// <summary>
     /// Tender reduction response
@@ -513,7 +513,7 @@ public enum MessageType
     /// <remarks>
     /// A response to a tender reduction request that provides  corrections to the initial document.
     /// </remarks>
-    A64,
+    A64 = 63,
 
     /// <summary>
     /// System total load
@@ -521,7 +521,7 @@ public enum MessageType
     /// <remarks>
     /// Total load', including losses without power used for energy storage, is equal to generation deducted with exports, added with imports and deducted with power used for energy storage.
     /// </remarks>
-    A65,
+    A65 = 64,
 
     /// <summary>
     /// Final MOL
@@ -529,7 +529,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the information concerning the situation of the MOL at the end of an activation period.
     /// </remarks>
-    A66,
+    A66 = 65,
 
     /// <summary>
     /// Resource Provider Schedule for production/consumption
@@ -537,7 +537,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the schedules for production/consumption for resource objects submitted by a resource provider.
     /// </remarks>
-    A67,
+    A67 = 66,
 
     /// <summary>
     /// Installed generation per type
@@ -545,7 +545,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the installed generation per generation type.
     /// </remarks>
-    A68,
+    A68 = 67,
 
     /// <summary>
     /// Wind and solar forecast
@@ -553,7 +553,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the forecast of wind and solar generation.
     /// </remarks>
-    A69,
+    A69 = 68,
 
     /// <summary>
     /// Load forecast margin
@@ -561,7 +561,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the load forecast margin for a period.
     /// </remarks>
-    A70,
+    A70 = 69,
 
     /// <summary>
     /// Generation forecast
@@ -569,7 +569,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the generation forecast for a period.
     /// </remarks>
-    A71,
+    A71 = 70,
 
     /// <summary>
     /// Reservoir filling information
@@ -577,7 +577,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing information concerning the filling of reservoirs.
     /// </remarks>
-    A72,
+    A72 = 71,
 
     /// <summary>
     /// Actual generation
@@ -585,7 +585,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the actual generation for a period.
     /// </remarks>
-    A73,
+    A73 = 72,
 
     /// <summary>
     /// Wind and solar generation
@@ -593,7 +593,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the generation of wind and solar energy for a period.
     /// </remarks>
-    A74,
+    A74 = 73,
 
     /// <summary>
     /// Actual generation per type
@@ -601,7 +601,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the actual generation per generation type for a period.
     /// </remarks>
-    A75,
+    A75 = 74,
 
     /// <summary>
     /// Load unavailability
@@ -609,7 +609,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the unavailability of units providing load on the network.
     /// </remarks>
-    A76,
+    A76 = 75,
 
     /// <summary>
     /// Production unavailability
@@ -617,7 +617,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the unavailability of production units providing energy to the network.
     /// </remarks>
-    A77,
+    A77 = 76,
 
     /// <summary>
     /// Transmission unavailability
@@ -625,7 +625,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the unavailability of transmission capacity on the network.
     /// </remarks>
-    A78,
+    A78 = 77,
 
     /// <summary>
     /// Offshore grid infrastructure unavailability
@@ -633,7 +633,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the unavailability of an offshore grid infrastructure to the network.
     /// </remarks>
-    A79,
+    A79 = 78,
 
     /// <summary>
     /// Generation unavailability
@@ -641,7 +641,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the unavailability of generation units providing energy to the network.
     /// </remarks>
-    A80,
+    A80 = 79,
 
     /// <summary>
     /// Contracted reserves
@@ -649,7 +649,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the reserves contracted for a period.
     /// </remarks>
-    A81,
+    A81 = 80,
 
     /// <summary>
     /// Accepted offers
@@ -657,7 +657,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the offers of reserves that have been accepted for a period.
     /// </remarks>
-    A82,
+    A82 = 81,
 
     /// <summary>
     /// Activated balancing quantities
@@ -665,7 +665,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the quantities of reserves that have been activated for balancing.
     /// </remarks>
-    A83,
+    A83 = 82,
 
     /// <summary>
     /// Activated balancing prices
@@ -673,7 +673,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the prices of the reserves that have been activated for balancing.
     /// </remarks>
-    A84,
+    A84 = 83,
 
     /// <summary>
     /// Imbalance prices
@@ -681,7 +681,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the prices of reserves due to imbalance for a period.
     /// </remarks>
-    A85,
+    A85 = 84,
 
     /// <summary>
     /// Imbalance volume
@@ -689,7 +689,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the volume of the imbalance for a period.
     /// </remarks>
-    A86,
+    A86 = 85,
 
     /// <summary>
     /// Financial situation
@@ -697,7 +697,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the financial situation for reserves.
     /// </remarks>
-    A87,
+    A87 = 86,
 
     /// <summary>
     /// Cross border balancing
@@ -705,7 +705,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the cross border balancing requirements for a period.
     /// </remarks>
-    A88,
+    A88 = 87,
 
     /// <summary>
     /// Contracted reserve prices
@@ -713,7 +713,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the price of reserves contracted for a period.
     /// </remarks>
-    A89,
+    A89 = 88,
 
     /// <summary>
     /// Interconnection network expansion
@@ -721,7 +721,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing information on the expansion of the interconnection network.
     /// </remarks>
-    A90,
+    A90 = 89,
 
     /// <summary>
     /// Counter trade notice
@@ -729,7 +729,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing information on counter trades for a period.
     /// </remarks>
-    A91,
+    A91 = 90,
 
     /// <summary>
     /// Congestion costs
@@ -737,7 +737,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the cost of congestion for a period.
     /// </remarks>
-    A92,
+    A92 = 91,
 
     /// <summary>
     /// DC link capacity
@@ -745,7 +745,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the DC links for a period.
     /// </remarks>
-    A93,
+    A93 = 92,
 
     /// <summary>
     /// Non EU allocations
@@ -753,7 +753,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing allocations made to non EU member states.
     /// </remarks>
-    A94,
+    A94 = 93,
 
     /// <summary>
     /// Configuration document
@@ -761,7 +761,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing configuration information.
     /// </remarks>
-    A95,
+    A95 = 94,
 
     /// <summary>
     /// Redispatch activation document
@@ -769,7 +769,7 @@ public enum MessageType
     /// <remarks>
     /// A document enabling the activation of a redispatch notice.
     /// </remarks>
-    A96,
+    A96 = 95,
 
     /// <summary>
     /// Detailed activation history document
@@ -777,7 +777,7 @@ public enum MessageType
     /// <remarks>
     /// A document enabling a detailed history of activations.
     /// </remarks>
-    A97,
+    A97 = 96,
 
     /// <summary>
     /// Aggregated activation history document
@@ -785,7 +785,7 @@ public enum MessageType
     /// <remarks>
     /// A document enabling an aggregated history of activations.
     /// </remarks>
-    A98,
+    A98 = 97,
 
     /// <summary>
     /// HVDC Link constraints
@@ -793,7 +793,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the information concerning the maximum and minimum active power flow through each link can limited.
     /// </remarks>
-    A99,
+    A99 = 98,
 
     /// <summary>
     /// HVDC Configuration
@@ -801,7 +801,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the information concerning the power set point. The mode in which the  HVDC is managed.
     /// </remarks>
-    B01,
+    B01 = 99,
 
     /// <summary>
     /// HVDC Schedule
@@ -809,7 +809,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the information for operating DC links.
     /// </remarks>
-    B02,
+    B02 = 100,
 
     /// <summary>
     /// EIC code request
@@ -817,7 +817,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the information requesting a new EIC code.
     /// </remarks>
-    B03,
+    B03 = 101,
 
     /// <summary>
     /// EIC code information
@@ -825,7 +825,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing EIC information  in a central registry exchange or information to an EIC participant.
     /// </remarks>
-    B04,
+    B04 = 102,
 
     /// <summary>
     /// EIC code publication
@@ -833,7 +833,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing EIC publication information in a web site publication of a limited set of information.
     /// </remarks>
-    B05,
+    B05 = 103,
 
     /// <summary>
     /// Critical network element determination
@@ -841,7 +841,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing all the elements necessary for the capacity coordinator to determine the transfer capacity and the associated critical network elements.
     /// </remarks>
-    B06,
+    B06 = 104,
 
     /// <summary>
     /// Critical network element publication
@@ -849,7 +849,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing all the elements necessary for the market information aggregator and TSOs to know the critical network elements which limit the transfer capacity.
     /// </remarks>
-    B07,
+    B07 = 105,
 
     /// <summary>
     /// Flow based domain
@@ -857,7 +857,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the capacity domain and its limits available for the TSO.
     /// </remarks>
-    B08,
+    B08 = 106,
 
     /// <summary>
     /// Flow based domain publication
@@ -865,7 +865,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the capacity domain and its limits available for the market.
     /// </remarks>
-    B09,
+    B09 = 107,
 
     /// <summary>
     /// Flow based domain market impact publication
@@ -873,7 +873,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the capacity domain and its impacts on the market to be published.
     /// </remarks>
-    B10,
+    B10 = 108,
 
     /// <summary>
     /// Anonymized flow based parameters publication
@@ -881,7 +881,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing all the relevant flow based parameters in case of flow based capacity allocation.
     /// </remarks>
-    B11,
+    B11 = 109,
 
     /// <summary>
     /// Critical network element market impact publication
@@ -889,7 +889,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the critical network elements and its impacts on the market to be published.
     /// </remarks>
-    B12,
+    B12 = 110,
 
     /// <summary>
     /// Weather document
@@ -897,7 +897,7 @@ public enum MessageType
     /// <remarks>
     /// An estimation or prediction in advance of the weather by analysis of meteorological data and the results of what actually happened with the weather.
     /// </remarks>
-    B13,
+    B13 = 111,
 
     /// <summary>
     /// Energy prognosis document
@@ -905,7 +905,7 @@ public enum MessageType
     /// <remarks>
     /// A document to provide the prognosis of energy production/load for a given period.
     /// </remarks>
-    B14,
+    B14 = 112,
 
     /// <summary>
     /// Network constraint document
@@ -913,7 +913,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the network constraint situations used for the load flow studies. A network constraint situation includes contingencies, monitored elements and remedial actions.
     /// </remarks>
-    B15,
+    B15 = 113,
 
     /// <summary>
     /// Aggregated netted external market schedule document
@@ -921,7 +921,7 @@ public enum MessageType
     /// <remarks>
     /// A document used to report aggregated netted external market schedules for a given border.
     /// </remarks>
-    B16,
+    B16 = 114,
 
     /// <summary>
     /// Aggregated netted external TSO schedule document
@@ -929,7 +929,7 @@ public enum MessageType
     /// <remarks>
     /// A document used to report aggregated netted external TSO schedules for a given border.
     /// </remarks>
-    B17,
+    B17 = 115,
 
     /// <summary>
     /// Reporting status market document
@@ -937,7 +937,7 @@ public enum MessageType
     /// <remarks>
     /// A document used to report the status of aggregated netted external market schedules, aggregated netted external TSO schedules and compensation program schedules on a given border.
     /// </remarks>
-    B18,
+    B18 = 116,
 
     /// <summary>
     /// Reporting information market document
@@ -945,7 +945,7 @@ public enum MessageType
     /// <remarks>
     /// A document used to report  the information concerning aggregated netted external schedules, aggregated netted external market schedules, aggregated netted external TSO schedules, compensation program schedules, netted area position schedules and netted area AC position schedules to an interested party.
     /// </remarks>
-    B19,
+    B19 = 117,
 
     /// <summary>
     /// Status request for a reporting information market document
@@ -953,7 +953,7 @@ public enum MessageType
     /// <remarks>
     /// A document requesting the provision of a reporting information document.
     /// </remarks>
-    B20,
+    B20 = 118,
 
     /// <summary>
     /// Reserve need document
@@ -961,7 +961,7 @@ public enum MessageType
     /// <remarks>
     /// Used by a TSO to send its reserve needs.
     /// </remarks>
-    B21,
+    B21 = 119,
 
     /// <summary>
     /// Generation and load shift keys document
@@ -969,7 +969,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the values of the generation and load shift keys to be used on network model.
     /// </remarks>
-    B22,
+    B22 = 120,
 
     /// <summary>
     /// Offers to be activated
@@ -977,7 +977,7 @@ public enum MessageType
     /// <remarks>
     /// A document containing the outcome of the process, with the list of offers that are to be activated by the TSO concerned and the results for its reserve needs.
     /// </remarks>
-    B23,
+    B23 = 121,
 
     /// <summary>
     /// Clearing price
@@ -985,7 +985,7 @@ public enum MessageType
     /// <remarks>
     /// A document containing the outcome of the process, with the clearing prices for a period.
     /// </remarks>
-    B24,
+    B24 = 122,
 
     /// <summary>
     /// Security analysis report
@@ -993,7 +993,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing a report on a performed security analysis.
     /// </remarks>
-    B25,
+    B25 = 123,
 
     /// <summary>
     /// Aggregated netted external schedule document
@@ -1001,7 +1001,7 @@ public enum MessageType
     /// <remarks>
     /// A document used to report aggregated netted external schedules for a given border. 
     /// </remarks>
-    B26,
+    B26 = 124,
 
     /// <summary>
     /// External TSO schedule
@@ -1009,7 +1009,7 @@ public enum MessageType
     /// <remarks>
     /// A document used to report external TSO schedules for a given border or interconnector.
     /// </remarks>
-    B27,
+    B27 = 125,
 
     /// <summary>
     /// Move of scheduled production
@@ -1017,7 +1017,7 @@ public enum MessageType
     /// <remarks>
     /// A document indication a move of scheduled production.
     /// </remarks>
-    B28,
+    B28 = 126,
 
     /// <summary>
     /// PS&LC results document
@@ -1025,7 +1025,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing Pole Splitting &amp; Loss Calculation results.
     /// </remarks>
-    B29,
+    B29 = 127,
 
     /// <summary>
     /// Notification data market document
@@ -1033,7 +1033,7 @@ public enum MessageType
     /// <remarks>
     /// A document used to notify data to any information receiver.
     /// </remarks>
-    B30,
+    B30 = 128,
 
     /// <summary>
     /// Additional Constraint document
@@ -1041,7 +1041,7 @@ public enum MessageType
     /// <remarks>
     /// A document describing additional constraints for a capacity calculation process.
     /// </remarks>
-    B31,
+    B31 = 129,
 
     /// <summary>
     /// Operational state document
@@ -1049,7 +1049,7 @@ public enum MessageType
     /// <remarks>
     /// A document used for exchanging operational states for grid assets.
     /// </remarks>
-    B32,
+    B32 = 130,
 
     /// <summary>
     /// Published offered capacity
@@ -1057,7 +1057,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the most recent values of offered capacity.
     /// </remarks>
-    B33,
+    B33 = 131,
 
     /// <summary>
     /// Market result document
@@ -1065,7 +1065,7 @@ public enum MessageType
     /// <remarks>
     /// Published prices and volumes
     /// </remarks>
-    B34,
+    B34 = 132,
 
     /// <summary>
     /// Area Configuration document
@@ -1073,7 +1073,7 @@ public enum MessageType
     /// <remarks>
     /// A document containing the definition of areas.
     /// </remarks>
-    B35,
+    B35 = 133,
 
     /// <summary>
     /// Area Composition document
@@ -1081,7 +1081,7 @@ public enum MessageType
     /// <remarks>
     /// A document containing the relations between areas, i.e which Metering Grid Areas a Bidding Zone composed of.
     /// </remarks>
-    B36,
+    B36 = 134,
 
     /// <summary>
     /// Connected Areas document
@@ -1089,7 +1089,7 @@ public enum MessageType
     /// <remarks>
     /// A document containing which other areas an area is connected to i.e. which Metering Grid Areas a Metering Grid Area is connected to.
     /// </remarks>
-    B37,
+    B37 = 135,
 
     /// <summary>
     /// Settlement document
@@ -1097,7 +1097,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing settlement information.
     /// </remarks>
-    B38,
+    B38 = 136,
 
     /// <summary>
     /// Imbalance prognosis document
@@ -1105,7 +1105,7 @@ public enum MessageType
     /// <remarks>
     /// A document to provide the prognosis of energy imbalances for a given period.
     /// </remarks>
-    B39,
+    B39 = 137,
 
     /// <summary>
     /// Complete set of bids
@@ -1113,7 +1113,7 @@ public enum MessageType
     /// <remarks>
     /// Submission of complete set of bids. If there are existing bids, they should be replaced.
     /// </remarks>
-    B40,
+    B40 = 138,
 
     /// <summary>
     /// Merged MOL notice
@@ -1121,7 +1121,7 @@ public enum MessageType
     /// <remarks>
     /// A notice providing information on the MOL merging process.
     /// </remarks>
-    B41,
+    B41 = 139,
 
     /// <summary>
     /// K-factor document
@@ -1129,7 +1129,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing K-factor values.
     /// </remarks>
-    B42,
+    B42 = 140,
 
     /// <summary>
     /// Settlement coordination document
@@ -1137,7 +1137,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing settlement information for coordination between different parties.
     /// </remarks>
-    B43,
+    B43 = 141,
 
     /// <summary>
     /// Financial settlement document
@@ -1145,7 +1145,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing financial settlement information.
     /// </remarks>
-    B44,
+    B44 = 142,
 
     /// <summary>
     /// Bid availability document
@@ -1153,7 +1153,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the detailed reasons for changing the availability or volume of a bid.
     /// </remarks>
-    B45,
+    B45 = 143,
 
     /// <summary>
     /// Resource capacity unit document
@@ -1161,7 +1161,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing information about resource capacity units.
     /// </remarks>
-    B46,
+    B46 = 144,
 
     /// <summary>
     /// Other market information
@@ -1169,7 +1169,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing other market information.
     /// </remarks>
-    B47,
+    B47 = 145,
 
     /// <summary>
     /// Permission document
@@ -1177,7 +1177,7 @@ public enum MessageType
     /// <remarks>
     /// A document that contains detailed information about permissions.
     /// </remarks>
-    B48,
+    B48 = 146,
 
     /// <summary>
     /// Requested capacity
@@ -1185,7 +1185,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing requested capacity (e.g. ATC, CZCL) value.	/// 
     /// </remarks>
-    B49,
+    B49 = 147,
 
     /// <summary>
     /// Voltage control activation document
@@ -1193,7 +1193,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing the number of generating units to activate for voltage control, by means of their operation in synchronous condenser mode.	/// 
     /// </remarks>
-    B50,
+    B50 = 148,
 
     /// <summary>
     /// Transmission inventory document
@@ -1201,7 +1201,7 @@ public enum MessageType
     /// <remarks>
     /// A document providing a transmission inventory.
     /// </remarks>
-    B51,
+    B51 = 149,
 
     /// <summary>
     /// Transmission inventory
@@ -1209,6 +1209,6 @@ public enum MessageType
     /// <remarks>
     /// A document providing statistics on the transmission grid.
     /// </remarks>
-    B52
+    B52 = 150
 }
 

@@ -17,7 +17,7 @@ public enum StatusType
     /// <remarks>
     /// The document is in a non finalized state.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Final
@@ -25,7 +25,7 @@ public enum StatusType
     /// <remarks>
     /// The document is in a definitive state.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Deactivated
@@ -33,7 +33,7 @@ public enum StatusType
     /// <remarks>
     /// The object being reported has been deactivated.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Reactivated
@@ -41,7 +41,7 @@ public enum StatusType
     /// <remarks>
     /// The object being reported has been reactivated.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Active
@@ -49,7 +49,7 @@ public enum StatusType
     /// <remarks>
     /// The object being reported is currently active.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Available
@@ -57,7 +57,7 @@ public enum StatusType
     /// <remarks>
     /// The volumes (one or more) are available.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Activated
@@ -65,7 +65,7 @@ public enum StatusType
     /// <remarks>
     /// The quantities in the time series have been activated.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// In process
@@ -73,7 +73,7 @@ public enum StatusType
     /// <remarks>
     /// The quantities in the time series are in the process of activation (an activation request has been made).
     /// </remarks>
-    A08,
+    A08 = 8,
 
     /// <summary>
     /// Cancelled
@@ -81,7 +81,7 @@ public enum StatusType
     /// <remarks>
     /// The tender indicated in the time series has been completely cancelled.	/// In this case the resources are no longer available to all Acquiring System Operators
     /// </remarks>
-    A09,
+    A09 = 9,
 
     /// <summary>
     /// Ordered
@@ -89,7 +89,7 @@ public enum StatusType
     /// <remarks>
     /// The quantities in the time series are to be activated.
     /// </remarks>
-    A10,
+    A10 = 10,
 
     /// <summary>
     /// Unavailable
@@ -97,7 +97,7 @@ public enum StatusType
     /// <remarks>
     /// The volumes (one or more) are unavailable.
     /// </remarks>
-    A11,
+    A11 = 11,
 
     /// <summary>
     /// RGCE agreed
@@ -105,7 +105,7 @@ public enum StatusType
     /// <remarks>
     /// The information has been agreed within the ENTSO-E Regional Group Continental Europe process.
     /// </remarks>
-    A12,
+    A12 = 12,
 
     /// <summary>
     /// Withdrawn
@@ -113,7 +113,7 @@ public enum StatusType
     /// <remarks>
     /// The information or action has been withdrawn by the submitter.
     /// </remarks>
-    A13,
+    A13 = 13,
 
     /// <summary>
     /// Creation
@@ -121,7 +121,7 @@ public enum StatusType
     /// <remarks>
     /// The action requested to be carried out is the creation of a new object.
     /// </remarks>
-    A14,
+    A14 = 14,
 
     /// <summary>
     /// Update
@@ -129,7 +129,7 @@ public enum StatusType
     /// <remarks>
     /// The action requested to be carried out is the update an existing object.
     /// </remarks>
-    A15,
+    A15 = 15,
 
     /// <summary>
     /// Deactivation
@@ -137,7 +137,7 @@ public enum StatusType
     /// <remarks>
     /// The action requested to be carried out is to deactivate an existing object.
     /// </remarks>
-    A16,
+    A16 = 16,
 
     /// <summary>
     /// Reactivation
@@ -145,7 +145,7 @@ public enum StatusType
     /// <remarks>
     /// The action requested to be carried out is to reactivate a previously deactivated object.
     /// </remarks>
-    A17,
+    A17 = 17,
 
     /// <summary>
     /// Preventive
@@ -153,7 +153,7 @@ public enum StatusType
     /// <remarks>
     /// The remedial action is applied to prevent an outage.
     /// </remarks>
-    A18,
+    A18 = 18,
 
     /// <summary>
     /// Curative
@@ -161,7 +161,7 @@ public enum StatusType
     /// <remarks>
     /// The remedial action is applied after an outage has occurred, in order to maintain the operational security.
     /// </remarks>
-    A19,
+    A19 = 19,
 
     /// <summary>
     /// Automatic
@@ -169,7 +169,7 @@ public enum StatusType
     /// <remarks>
     /// The remedial action being described is applied by an automation when an outage occurs.
     /// </remarks>
-    A20,
+    A20 = 20,
 
     /// <summary>
     /// Open
@@ -177,7 +177,7 @@ public enum StatusType
     /// <remarks>
     /// The action being described consists of disconnecting the network element  to the transmission network.
     /// </remarks>
-    A21,
+    A21 = 21,
 
     /// <summary>
     /// Close
@@ -185,7 +185,7 @@ public enum StatusType
     /// <remarks>
     /// The action being described consists of connecting the network element  to the transmission network.
     /// </remarks>
-    A22,
+    A22 = 22,
 
     /// <summary>
     /// Stop
@@ -193,7 +193,7 @@ public enum StatusType
     /// <remarks>
     /// The action being described consists of stopping the production or consumption connected to a network element.
     /// </remarks>
-    A23,
+    A23 = 23,
 
     /// <summary>
     /// Start
@@ -201,7 +201,7 @@ public enum StatusType
     /// <remarks>
     /// The action being described consists of starting the production or consumption connected to a network element.
     /// </remarks>
-    A24,
+    A24 = 24,
 
     /// <summary>
     /// Relative
@@ -209,7 +209,7 @@ public enum StatusType
     /// <remarks>
     /// The quantity being described is a relative value to an initial state.
     /// </remarks>
-    A25,
+    A25 = 25,
 
     /// <summary>
     /// Absolute
@@ -217,7 +217,7 @@ public enum StatusType
     /// <remarks>
     /// The quantity being described is an absolute value.
     /// </remarks>
-    A26,
+    A26 = 26,
 
     /// <summary>
     /// Curative or preventive
@@ -225,7 +225,7 @@ public enum StatusType
     /// <remarks>
     /// The remedial action can be applied to prevent an outage or after an outage has occurred in order to maintain the operational security.
     /// </remarks>
-    A27,
+    A27 = 27,
 
     /// <summary>
     /// Unshared bid
@@ -233,7 +233,7 @@ public enum StatusType
     /// <remarks>
     /// Used to indicate that the bid cannot be shared.
     /// </remarks>
-    A28,
+    A28 = 28,
 
     /// <summary>
     /// Pre Processed
@@ -241,7 +241,7 @@ public enum StatusType
     /// <remarks>
     /// to be process
     /// </remarks>
-    A29,
+    A29 = 29,
 
     /// <summary>
     /// Substituted
@@ -249,7 +249,7 @@ public enum StatusType
     /// <remarks>
     /// Substituted pre-processing data.
     /// </remarks>
-    A30,
+    A30 = 30,
 
     /// <summary>
     /// Modified
@@ -257,7 +257,7 @@ public enum StatusType
     /// <remarks>
     /// Modified pre-processing data by RSC or CGMA platform.
     /// </remarks>
-    A31,
+    A31 = 31,
 
     /// <summary>
     /// Result
@@ -265,7 +265,7 @@ public enum StatusType
     /// <remarks>
     /// Result
     /// </remarks>
-    A32,
+    A32 = 32,
 
     /// <summary>
     /// Not satisfied
@@ -273,7 +273,7 @@ public enum StatusType
     /// <remarks>
     /// The need described in the time series cannot be satisfied.
     /// </remarks>
-    A33,
+    A33 = 33,
 
     /// <summary>
     /// Rejected
@@ -281,7 +281,7 @@ public enum StatusType
     /// <remarks>
     /// The document rejected by one or more parties.
     /// </remarks>
-    A34,
+    A34 = 34,
 
     /// <summary>
     /// Preliminary
@@ -289,7 +289,7 @@ public enum StatusType
     /// <remarks>
     /// Indicative information only for initial planning purposes.
     /// </remarks>
-    A35,
+    A35 = 35,
 
     /// <summary>
     /// Planned
@@ -297,7 +297,7 @@ public enum StatusType
     /// <remarks>
     /// Is planned.
     /// </remarks>
-    A36,
+    A36 = 36,
 
     /// <summary>
     /// Confirmed
@@ -305,7 +305,7 @@ public enum StatusType
     /// <remarks>
     /// The status is  confirmed.
     /// </remarks>
-    A37,
+    A37 = 37,
 
     /// <summary>
     /// Shall Be Used
@@ -313,7 +313,7 @@ public enum StatusType
     /// <remarks>
     /// The object defined in the series shall be used.
     /// </remarks>
-    A38,
+    A38 = 38,
 
     /// <summary>
     /// Could Be Used
@@ -321,7 +321,7 @@ public enum StatusType
     /// <remarks>
     /// The object defined in the series could be used.
     /// </remarks>
-    A39,
+    A39 = 39,
 
     /// <summary>
     /// Proposed
@@ -329,7 +329,7 @@ public enum StatusType
     /// <remarks>
     /// The status of the information is proposed.
     /// </remarks>
-    A40,
+    A40 = 40,
 
     /// <summary>
     /// Individual Network Data
@@ -337,7 +337,7 @@ public enum StatusType
     /// <remarks>
     /// The network data provided in the document or series concerns the the unique TSO area describes by the document or series.
     /// </remarks>
-    A41,
+    A41 = 41,
 
     /// <summary>
     /// Common Network Data
@@ -345,7 +345,7 @@ public enum StatusType
     /// <remarks>
     /// The network data provided in the document or series concerns the whole area describes by the document or series.
     /// </remarks>
-    A42,
+    A42 = 42,
 
     /// <summary>
     /// Setpoint schedule
@@ -353,7 +353,7 @@ public enum StatusType
     /// <remarks>
     /// The code for the power setpoint mode of operation of the HVDC link.
     /// </remarks>
-    A43,
+    A43 = 43,
 
     /// <summary>
     /// Proportional external signal
@@ -361,7 +361,7 @@ public enum StatusType
     /// <remarks>
     /// The code for the proportional external signal mode of operation of the HVDC link.
     /// </remarks>
-    A44,
+    A44 = 44,
 
     /// <summary>
     /// AC emulation
@@ -369,7 +369,7 @@ public enum StatusType
     /// <remarks>
     /// The code for the AC emulation mode of operation of the HVDC link.
     /// </remarks>
-    A45,
+    A45 = 45,
 
     /// <summary>
     /// Importing element
@@ -377,7 +377,7 @@ public enum StatusType
     /// <remarks>
     /// An importing network element in which the flow measurement enters.
     /// </remarks>
-    A46,
+    A46 = 46,
 
     /// <summary>
     /// Exporting element
@@ -385,7 +385,7 @@ public enum StatusType
     /// <remarks>
     /// An exporting network element from which the flow measurement comes out.
     /// </remarks>
-    A47,
+    A47 = 47,
 
     /// <summary>
     /// To be optimized
@@ -393,7 +393,7 @@ public enum StatusType
     /// <remarks>
     /// Describes an element which needs to be optimized by an optimization process.
     /// </remarks>
-    A48,
+    A48 = 48,
 
     /// <summary>
     /// To be monitored
@@ -401,7 +401,7 @@ public enum StatusType
     /// <remarks>
     /// Describes an element which needs to be monitored by an optimization process.
     /// </remarks>
-    A49,
+    A49 = 49,
 
     /// <summary>
     /// To be included in capacity calculation
@@ -409,7 +409,7 @@ public enum StatusType
     /// <remarks>
     /// Describes an element which needs to be taken into account in a capacity calculation process.
     /// </remarks>
-    A50,
+    A50 = 50,
 
     /// <summary>
     /// Relative to previous point in time
@@ -417,7 +417,7 @@ public enum StatusType
     /// <remarks>
     /// The quantity being described is a relative value to a previous point in time.
     /// </remarks>
-    A51,
+    A51 = 51,
 
     /// <summary>
     /// For flow optimization
@@ -425,7 +425,7 @@ public enum StatusType
     /// <remarks>
     /// Describes an element which needs to be optimized by a flow optimization process.
     /// </remarks>
-    A52,
+    A52 = 52,
 
     /// <summary>
     /// For voltage optimization
@@ -433,7 +433,7 @@ public enum StatusType
     /// <remarks>
     /// Describes an element which needs to be optimized by a voltage optimization process.
     /// </remarks>
-    A53,
+    A53 = 53,
 
     /// <summary>
     /// Presolved
@@ -441,7 +441,7 @@ public enum StatusType
     /// <remarks>
     /// Describes an active constraint that limits the exchanges. It is part of the presolved domain.
     /// </remarks>
-    A54,
+    A54 = 54,
 
     /// <summary>
     /// Not available if linked bid activated
@@ -449,7 +449,7 @@ public enum StatusType
     /// <remarks>
     /// Bid not available if linked bid activated.
     /// </remarks>
-    A55,
+    A55 = 55,
 
     /// <summary>
     /// Not available if linked bid rejected
@@ -457,7 +457,7 @@ public enum StatusType
     /// <remarks>
     /// Bid not available if linked bid rejected.
     /// </remarks>
-    A56,
+    A56 = 56,
 
     /// <summary>
     /// Not available for DA if linked bid subject to DA
@@ -465,7 +465,7 @@ public enum StatusType
     /// <remarks>
     /// Bid not available for direct activation if linked bid subject to direct activation.
     /// </remarks>
-    A57,
+    A57 = 57,
 
     /// <summary>
     /// Not available for DA if linked bid subject to SA
@@ -473,7 +473,7 @@ public enum StatusType
     /// <remarks>
     /// Bid not available for direct activation if linked bid subject to scheduled activation.
     /// </remarks>
-    A58,
+    A58 = 58,
 
     /// <summary>
     /// Not available if linked bid subject to SA
@@ -481,7 +481,7 @@ public enum StatusType
     /// <remarks>
     /// Bid not available if linked bid subject to scheduled activation.
     /// </remarks>
-    A59,
+    A59 = 59,
 
     /// <summary>
     /// Not available if linked bid subject to DA
@@ -489,7 +489,7 @@ public enum StatusType
     /// <remarks>
     /// Bid not available if linked bid subject to direct activation.
     /// </remarks>
-    A60,
+    A60 = 60,
 
     /// <summary>
     /// Primary market
@@ -497,7 +497,7 @@ public enum StatusType
     /// <remarks>
     /// A value is traded for the first time.
     /// </remarks>
-    A61,
+    A61 = 61,
 
     /// <summary>
     /// Secondary market
@@ -505,7 +505,7 @@ public enum StatusType
     /// <remarks>
     /// A value is traded for the second or next times between two parties.
     /// </remarks>
-    A62,
+    A62 = 62,
 
     /// <summary>
     /// Interesting
@@ -513,7 +513,7 @@ public enum StatusType
     /// <remarks>
     /// Describes an asset which is considered as interesting.
     /// </remarks>
-    A63,
+    A63 = 63,
 
     /// <summary>
     /// Relevant
@@ -521,7 +521,7 @@ public enum StatusType
     /// <remarks>
     /// Describes an asset which is considered as relevant.
     /// </remarks>
-    A64,
+    A64 = 64,
 
     /// <summary>
     /// Conditionally available
@@ -529,7 +529,7 @@ public enum StatusType
     /// <remarks>
     /// Bid available as long as none of the conditions associated with the linked bids materialise.
     /// </remarks>
-    A65,
+    A65 = 65,
 
     /// <summary>
     /// Conditionally unavailable
@@ -537,7 +537,7 @@ public enum StatusType
     /// <remarks>
     /// Bid unavailable as long as none of the conditions associated with the linked bids materialise.
     /// </remarks>
-    A66,
+    A66 = 66,
 
     /// <summary>
     /// Available if linked bid activated
@@ -545,7 +545,7 @@ public enum StatusType
     /// <remarks>
     /// Bid available if linked bid activated.
     /// </remarks>
-    A67,
+    A67 = 67,
 
     /// <summary>
     /// Available if linked bid rejected
@@ -553,7 +553,7 @@ public enum StatusType
     /// <remarks>
     /// Bid available if linked bid rejected.
     /// </remarks>
-    A68,
+    A68 = 68,
 
     /// <summary>
     /// Available if linked bid subject to SA
@@ -561,7 +561,7 @@ public enum StatusType
     /// <remarks>
     /// Bid available if linked bid subject to scheduled activation.
     /// </remarks>
-    A69,
+    A69 = 69,
 
     /// <summary>
     /// Available if linked bid subject to DA
@@ -569,7 +569,7 @@ public enum StatusType
     /// <remarks>
     /// Bid available if linked bid subject to direct activation.
     /// </remarks>
-    A70,
+    A70 = 70,
 
     /// <summary>
     /// Available for DA if linked bid subject to DA
@@ -577,7 +577,7 @@ public enum StatusType
     /// <remarks>
     /// Bid available for direct activation if linked bid subject to direct activation.
     /// </remarks>
-    A71,
+    A71 = 71,
 
     /// <summary>
     /// Available for DA if linked bid subject to SA
@@ -585,7 +585,7 @@ public enum StatusType
     /// <remarks>
     /// Bid available for direct activation if linked bid subject to scheduled activation.
     /// </remarks>
-    A72,
+    A72 = 72,
 
     /// <summary>
     /// Delta
@@ -593,7 +593,7 @@ public enum StatusType
     /// <remarks>
     /// Describes a status representing a difference between two values.
     /// </remarks>
-    A73,
+    A73 = 73,
 
     /// <summary>
     /// Validated
@@ -601,7 +601,7 @@ public enum StatusType
     /// <remarks>
     /// The object or action was validated.
     /// </remarks>
-    A74,
+    A74 = 74,
 
     /// <summary>
     /// Invalid
@@ -609,7 +609,7 @@ public enum StatusType
     /// <remarks>
     /// The object or action was invalid.
     /// </remarks>
-    A75,
+    A75 = 75,
 
     /// <summary>
     /// Timed out
@@ -617,6 +617,6 @@ public enum StatusType
     /// <remarks>
     /// The object or action was timed out.
     /// </remarks>
-    A76
+    A76 = 76
 }
 

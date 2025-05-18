@@ -17,7 +17,7 @@ public enum PriceComponentType
     /// <remarks>
     /// A scarcity component to be used in nationally defined scarcity situations.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Incentive
@@ -25,7 +25,7 @@ public enum PriceComponentType
     /// <remarks>
     /// An incentive component to be used to fulfil nationally defined boundary conditions.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Financial neutrality
@@ -33,6 +33,6 @@ public enum PriceComponentType
     /// <remarks>
     /// A component related to the financial neutrality of the connecting TSO.
     /// </remarks>
-    A03
+    A03 = 3
 }
 

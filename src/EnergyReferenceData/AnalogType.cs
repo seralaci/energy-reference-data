@@ -17,7 +17,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the computed flow for the monitored element in the constraint situation ("N situation", "N-1 situation" ...) after the capacity calculation. The flow is expressed in A, %, or MW.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Permanent admissible transmission limit (PATL)
@@ -25,7 +25,7 @@ public enum AnalogType
     /// <remarks>
     /// The permanent load of transmission system elements which is allowed for an unlimited period and which does not cause physical damage to the transmission system elements as long as the defined threshold is respected.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Flow reliability margin
@@ -33,7 +33,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the flow reliability margin for a given critical network element. The amount of MW or A that is reserved for this critical network element and shall not be used for the computed outage situation, in order to secure the power network.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Spanning margin value
@@ -41,7 +41,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the margin that is taken into account when spanning (fall-back process) is applied. Spanning marginal value is an historical based parameter which specifies the amount of MW that reduces the RAM when spanning is applied.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Long term allocation margin
@@ -49,7 +49,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the amount of MW that is added to the capacity of the critical network element in order to automatically include the long term allocation domain into the flow based domain.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Final adjustment margin value
@@ -57,7 +57,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the margin that is manually added or subtracted to the capacity of the critical network element. A negative value for final adjustment value simulates the effect of an additional margin due to complex remedial actions (RA) which cannot be modeled and so calculated in the flow based parameter calculation. A positive value for FAV as a consequence of the verification phase of the flow based domain, leading to the need to reduce the margin on one or more CBs for system security reasons.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Transitory admissible transmission limit (TATL)
@@ -65,7 +65,7 @@ public enum AnalogType
     /// <remarks>
     /// The temporary overload of transmission system elements which is allowed for a limited period and which does not cause physical damage to the transmission system elements as long as the defined duration and thresholds are respected.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// Long admissible flow
@@ -73,7 +73,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the value, expressed in A or MW, that the overload flow in a network element shall not exceed for a duration no longer than the long duration. The long duration value depends on the TSO network operating rules.
     /// </remarks>
-    A08,
+    A08 = 8,
 
     /// <summary>
     /// Negative Final adjustment margin value
@@ -81,7 +81,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the margin that is manually added to the capacity of the critical network element in order to simulate the effect of an additional margin due to complex remedial actions (RA) which cannot be modeled and so calculated in the flow based parameter calculation.
     /// </remarks>
-    A09,
+    A09 = 9,
 
     /// <summary>
     /// Minimum voltage level
@@ -89,7 +89,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the minimum voltage that can be supported by a network element without involving a risk for the security of supply.
     /// </remarks>
-    A10,
+    A10 = 10,
 
     /// <summary>
     /// Maximum voltage level
@@ -97,7 +97,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the maximum voltage that can be supported by a network element without involving a risk for the security of supply.
     /// </remarks>
-    A11,
+    A11 = 11,
 
     /// <summary>
     /// TATL after automatic RA
@@ -105,7 +105,7 @@ public enum AnalogType
     /// <remarks>
     /// The Transitory admissible transmission limit (TATL) which is allowed after an automatic Remedial Action (RA) has been applied.
     /// </remarks>
-    A12,
+    A12 = 12,
 
     /// <summary>
     /// TATL after curative RA
@@ -113,7 +113,7 @@ public enum AnalogType
     /// <remarks>
     /// The Transitory admissible transmission limit (TATL) which is allowed after a curative Remedial Action (RA) has been applied.
     /// </remarks>
-    A13,
+    A13 = 13,
 
     /// <summary>
     /// Computed Voltage
@@ -121,7 +121,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the computed voltage for a given monitored element.
     /// </remarks>
-    A14,
+    A14 = 14,
 
     /// <summary>
     /// Zero-Balance flow
@@ -129,7 +129,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the amount of power affected by a contingency that reflects a situation with a scheduled exchange of zero.
     /// </remarks>
-    A15,
+    A15 = 15,
 
     /// <summary>
     /// Available margin after remedial actions
@@ -137,7 +137,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the available flow margin adjusted for the consideration of remedial actions in capacity calculation.
     /// </remarks>
-    A16,
+    A16 = 16,
 
     /// <summary>
     /// Loss Factor
@@ -145,7 +145,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the loss factor for an asset.
     /// </remarks>
-    A17,
+    A17 = 17,
 
     /// <summary>
     /// Adjustment for minimum RAM
@@ -153,7 +153,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the adjustment applied to the capacity of a branch to have a minimum RAM (Remaining Available Margin) available for commercial exchanges.
     /// </remarks>
-    A18,
+    A18 = 18,
 
     /// <summary>
     /// Tap changer
@@ -161,7 +161,7 @@ public enum AnalogType
     /// <remarks>
     /// The position of a Tap changer.
     /// </remarks>
-    A19,
+    A19 = 19,
 
     /// <summary>
     /// Regulator mode
@@ -169,7 +169,7 @@ public enum AnalogType
     /// <remarks>
     /// A measurement type indicating the control mode of a regulator, i.e. from voltage regulation to fixed MVAR regulation.
     /// </remarks>
-    A20,
+    A20 = 20,
 
     /// <summary>
     /// Regulator set-point
@@ -177,7 +177,7 @@ public enum AnalogType
     /// <remarks>
     /// The set-point of a regulator. A regulator can be a tap changer, a synchronous machine, a SVC or a shunt.
     /// </remarks>
-    A21,
+    A21 = 21,
 
     /// <summary>
     /// Reference Flow
@@ -185,7 +185,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the amount of power affected by a contingency that reflects a situation with scheduled exchanges from a reference situation.
     /// </remarks>
-    A22,
+    A22 = 22,
 
     /// <summary>
     /// CO2 emission
@@ -193,7 +193,7 @@ public enum AnalogType
     /// <remarks>
     /// This is the CO2 emission from one or several assets.
     /// </remarks>
-    A23,
+    A23 = 23,
 
     /// <summary>
     /// Maximum admissible current (Imax)
@@ -201,7 +201,7 @@ public enum AnalogType
     /// <remarks>
     /// The maximum admissible current of a critical network element or a critical network element and contingency.
     /// </remarks>
-    A24,
+    A24 = 24,
 
     /// <summary>
     /// Individual value adjustment (IVA)
@@ -209,7 +209,7 @@ public enum AnalogType
     /// <remarks>
     /// Individual value adjustment resulting from TSO validation process.	/// 
     /// </remarks>
-    A25,
+    A25 = 25,
 
     /// <summary>
     /// Linear flow approximation (F0)
@@ -217,7 +217,7 @@ public enum AnalogType
     /// <remarks>
     /// The linear approximation of a flow in the reference net position in a situation without any cross-zonal exchanges.
     /// </remarks>
-    A26,
+    A26 = 26,
 
     /// <summary>
     /// Flow without commercial exchanges (F0_Wce)
@@ -225,7 +225,7 @@ public enum AnalogType
     /// <remarks>
     /// Flow per critical network element and contingency without commercial exchanges within a capacity calculation region.
     /// </remarks>
-    A27,
+    A27 = 27,
 
     /// <summary>
     /// Flow without commercial exchanges between areas (F0_all)
@@ -233,7 +233,7 @@ public enum AnalogType
     /// <remarks>
     /// Flow per critical network element and contingency without commercial exchanges between bidding zones within the same or different synchronous areas.
     /// </remarks>
-    A28,
+    A28 = 28,
 
     /// <summary>
     /// Flow due to non-costly remedial actions (F_nrao)
@@ -241,7 +241,7 @@ public enum AnalogType
     /// <remarks>
     /// Expected flow change due to non-costly remedial actions.
     /// </remarks>
-    A29,
+    A29 = 29,
 
     /// <summary>
     /// Flow after long-term nominations (F_LTN)
@@ -249,7 +249,7 @@ public enum AnalogType
     /// <remarks>
     /// Flow after consideration of long-term nominations.
     /// </remarks>
-    A30,
+    A30 = 30,
 
     /// <summary>
     /// Coordinated value adjustment (CVA)
@@ -257,7 +257,7 @@ public enum AnalogType
     /// <remarks>
     /// Coordinated value adjustment resulting from coordinated validation process.
     /// </remarks>
-    A31,
+    A31 = 31,
 
     /// <summary>
     /// Minimum remaining available margin as ratio of maximum allowable power flow (Ramr)
@@ -265,7 +265,7 @@ public enum AnalogType
     /// <remarks>
     /// Percentage of the maximum allowable power flow that needs to be available as minimum Remaining Available Margin. 
     /// </remarks>
-    A32,
+    A32 = 32,
 
     /// <summary>
     /// Flows from already allocated cross-zonal capacities (Faac)
@@ -273,7 +273,7 @@ public enum AnalogType
     /// <remarks>
     /// Flows resulting from previously allocated cross-zonal capacities.
     /// </remarks>
-    A33,
+    A33 = 33,
 
     /// <summary>
     /// Flow from remedial action (FRA)
@@ -281,7 +281,7 @@ public enum AnalogType
     /// <remarks>
     /// Flow for increasing the Remaining Available Margin due to remedial action.
     /// </remarks>
-    A34,
+    A34 = 34,
 
     /// <summary>
     /// Assumed external exchanges
@@ -289,7 +289,7 @@ public enum AnalogType
     /// <remarks>
     /// Flow resulting from assumed commercial exchanges outside the region (F_uaf).
     /// </remarks>
-    A35,
+    A35 = 35,
 
     /// <summary>
     /// Minimum remaining available margin target
@@ -297,7 +297,7 @@ public enum AnalogType
     /// <remarks>
     /// Target capacity for exchanges by deducing the exchanges not related to the region.
     /// </remarks>
-    A36,
+    A36 = 36,
 
     /// <summary>
     /// Average voltage
@@ -305,7 +305,7 @@ public enum AnalogType
     /// <remarks>
     /// Average voltage on two connecting nodes of a critical network element resulting from AC load flow calculation with applied reactive power constraints (U).
     /// </remarks>
-    A37,
+    A37 = 37,
 
     /// <summary>
     /// Average power factor
@@ -313,7 +313,7 @@ public enum AnalogType
     /// <remarks>
     /// Average power factor on two connecting nodes of a critical network element resulting from AC load flow calculation (cos phi).
     /// </remarks>
-    A38,
+    A38 = 38,
 
     /// <summary>
     /// Lower ramp rate
@@ -321,7 +321,7 @@ public enum AnalogType
     /// <remarks>
     /// The maximum rate that the output can be lowered by.
     /// </remarks>
-    A39,
+    A39 = 39,
 
     /// <summary>
     /// Raise ramp rate
@@ -329,7 +329,7 @@ public enum AnalogType
     /// <remarks>
     /// The maximum rate that the output can be raised by.
     /// </remarks>
-    A40,
+    A40 = 40,
 
     /// <summary>
     /// Negative reference flow
@@ -337,7 +337,7 @@ public enum AnalogType
     /// <remarks>
     /// The amount of power negatively affected by a contingency that reflects a situation with scheduled exchanges from a reference situation. 
     /// </remarks>
-    A41,
+    A41 = 41,
 
     /// <summary>
     /// Negative flow due to non-costly remedial actions
@@ -345,6 +345,6 @@ public enum AnalogType
     /// <remarks>
     /// Negative expected flow change due to non-costly remedial actions.
     /// </remarks>
-    A42
+    A42 = 42
 }
 

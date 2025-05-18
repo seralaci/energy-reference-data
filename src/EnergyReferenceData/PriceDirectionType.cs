@@ -17,7 +17,7 @@ public enum PriceDirectionType
     /// <remarks>
     /// Expenditure, i.e. the Impacted Area System Operator pays to the internal Market Parties.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Income.
@@ -25,6 +25,6 @@ public enum PriceDirectionType
     /// <remarks>
     /// Income, i.e. The Impacted Area System Operator receives from the internal Market Parties.
     /// </remarks>
-    A02
+    A02 = 2
 }
 

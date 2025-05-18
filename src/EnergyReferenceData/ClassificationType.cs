@@ -17,7 +17,7 @@ public enum ClassificationType
     /// <remarks>
     /// The Time Series content provides detailed information.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Summary type 
@@ -25,6 +25,6 @@ public enum ClassificationType
     /// <remarks>
     /// The Time Series content provides aggregated information.
     /// </remarks>
-    A02
+    A02 = 2
 }
 

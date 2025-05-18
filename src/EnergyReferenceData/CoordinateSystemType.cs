@@ -17,7 +17,7 @@ public enum CoordinateSystemType
     /// <remarks>
     /// ED 50 (European Datum 1950) is a geodetic datum which was defined after World War II for the international connection of geodetic networks.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// OSGB36
@@ -25,7 +25,7 @@ public enum CoordinateSystemType
     /// <remarks>
     /// Ordinance Survey Great Britain 1936. The Ordinance Survey (OS) devised the national grid reference system, and it is heavily used in their survey data, and in maps (whether published by the Ordinance Survey or commercial map producers) based on those surveys.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// WGS84
@@ -33,7 +33,7 @@ public enum CoordinateSystemType
     /// <remarks>
     /// The World Geodetic System version 1984. for use in cartography, geodesy, and navigation including by GPS. It comprises a standard coordinate system for the earth, a standard spheroidal reference surface (the datum or reference ellipsoid) for raw altitude data, and a gravitational equipotential surface (the geoid) that defines the nominal sea level.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// GTRF
@@ -41,6 +41,6 @@ public enum CoordinateSystemType
     /// <remarks>
     /// Galileo Terrestrial Reference Frame
     /// </remarks>
-    A04
+    A04 = 4
 }
 

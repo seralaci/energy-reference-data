@@ -17,7 +17,7 @@ public enum AllocationModeType
     /// <remarks>
     /// The allocation method is by price with eventual pro rata.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Order by price with first come - first served
@@ -25,7 +25,7 @@ public enum AllocationModeType
     /// <remarks>
     /// The allocation method is by price with eventual use of first come first served.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// First come - First served
@@ -33,7 +33,7 @@ public enum AllocationModeType
     /// <remarks>
     /// The allocation method is first come first served.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Pro rata
@@ -41,6 +41,6 @@ public enum AllocationModeType
     /// <remarks>
     /// The allocation method is pro rata.
     /// </remarks>
-    A04
+    A04 = 4
 }
 

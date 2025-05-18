@@ -17,7 +17,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of measurement of the cloudiness expressed in OKTA or OCTA, i.e. A unit of count defining the number of eighth-parts as a measure of the celestial dome cloud coverage.
     /// </remarks>
-    A59,
+    A59 = 1,
 
     /// <summary>
     /// gigawatt
@@ -25,7 +25,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// GW unit as per UN/CEFACT recommendation 20.
     /// </remarks>
-    A90,
+    A90 = 2,
 
     /// <summary>
     /// hectopascal
@@ -33,7 +33,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of measurement of the pressure expressed in hectopascal.
     /// </remarks>
-    A97,
+    A97 = 3,
 
     /// <summary>
     /// ampere
@@ -41,7 +41,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// The unit of electrical current in the International system of Units (SI) equivalent to one Coulomb per second.
     /// </remarks>
-    AMP,
+    AMP = 4,
 
     /// <summary>
     /// One
@@ -49,7 +49,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit for dimensionless quantities, also called quantities of dimension one.
     /// </remarks>
-    C62,
+    C62 = 5,
 
     /// <summary>
     /// Celsius
@@ -57,7 +57,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of measurement of temperature expressed in degree Celsius.
     /// </remarks>
-    CEL,
+    CEL = 6,
 
     /// <summary>
     /// watt per square meter
@@ -65,7 +65,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of measurement of the density of heat flow rate expressed in watt per square meter.
     /// </remarks>
-    D54,
+    D54 = 7,
 
     /// <summary>
     /// degree (unit of angle)
@@ -73,7 +73,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of measurement of angles expressed in a 0 to 360 degree gradient.
     /// </remarks>
-    DD,
+    DD = 8,
 
     /// <summary>
     /// Megawatt per Hertz
@@ -81,7 +81,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of energy expressed as the load change in million watts that will cause a frequency shift of one hertz.
     /// </remarks>
-    E08,
+    E08 = 9,
 
     /// <summary>
     /// gigawatt hour
@@ -89,7 +89,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// GWh unit as per UN/CEFACT recommendation 20.
     /// </remarks>
-    GWH,
+    GWH = 10,
 
     /// <summary>
     /// cubic hectometres
@@ -97,7 +97,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of volume equal to one million cubic metres.
     /// </remarks>
-    HMQ,
+    HMQ = 11,
 
     /// <summary>
     /// Hertz
@@ -105,7 +105,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// HTZ unit as per UN/CEFACT recommendation 20.
     /// </remarks>
-    HTZ,
+    HTZ = 12,
 
     /// <summary>
     /// K (Kelvin)
@@ -113,7 +113,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// Temperature unit refer ISO 80000-5 (Quantities and units, Part 5: Thermodynamics).
     /// </remarks>
-    KEL,
+    KEL = 13,
 
     /// <summary>
     /// kilometre
@@ -121,7 +121,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// km unit as per UN/CEFACT recommendation 20.
     /// </remarks>
-    KMT,
+    KMT = 14,
 
     /// <summary>
     /// kilovolt ampere reactive
@@ -129,7 +129,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of electrical reactive power represented by a current of one thousand amperes flowing due to a potential difference of one thousand volts where the sine of the phase angle between them is 1. The unity power factor is expressed in thousands of a volt ampere reactive.
     /// </remarks>
-    KVR,
+    KVR = 15,
 
     /// <summary>
     /// kilovolt
@@ -137,7 +137,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// kV unit as per UN/CEFACT recommendation 20.
     /// </remarks>
-    KVT,
+    KVT = 16,
 
     /// <summary>
     /// kilowatt hour
@@ -145,7 +145,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A total amount of electrical energy transferred or consumed in one hour.
     /// </remarks>
-    KWH,
+    KWH = 17,
 
     /// <summary>
     /// kilowatt
@@ -153,7 +153,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of bulk power flow, which can be defined as the rate of energy transfer /consumption when a current of 1000 amperes flows due to a potential of 1000 volts at unity power factor expressed in thousands of a watt.
     /// </remarks>
-    KWT,
+    KWT = 18,
 
     /// <summary>
     /// megavolt ampere reactive hours
@@ -161,7 +161,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// Total amount of reactive power across a power system.
     /// </remarks>
-    MAH,
+    MAH = 19,
 
     /// <summary>
     /// megavolt ampere reactive
@@ -169,7 +169,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of electrical reactive power represented by a current of one thousand amperes flowing due to a potential difference of one thousand volts where the sine of the phase angle between them is 1.
     /// </remarks>
-    MAR,
+    MAR = 20,
 
     /// <summary>
     /// megawatt
@@ -177,7 +177,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of bulk power flow, which can be defined as the rate of energy transfer /consumption when a current of 1000 amperes flows due to a potential of 1000 volts at unity power factor expressed in millions of a watt.
     /// </remarks>
-    MAW,
+    MAW = 21,
 
     /// <summary>
     /// minute
@@ -185,7 +185,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A period of time equal to sixty seconds.
     /// </remarks>
-    MIN,
+    MIN = 22,
 
     /// <summary>
     /// millimeter
@@ -193,7 +193,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of measurement of length expressed in millimeter.
     /// </remarks>
-    MMT,
+    MMT = 23,
 
     /// <summary>
     /// cubic metres per second
@@ -201,7 +201,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// The volume flow rate of cubic metre per second.
     /// </remarks>
-    MQS,
+    MQS = 24,
 
     /// <summary>
     /// cubic metre
@@ -209,7 +209,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A Cubic metre.
     /// </remarks>
-    MTQ,
+    MTQ = 25,
 
     /// <summary>
     /// metre
@@ -217,7 +217,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// The length of a metre.
     /// </remarks>
-    MTR,
+    MTR = 26,
 
     /// <summary>
     /// meter per second
@@ -225,7 +225,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of measurement of the speed expressed in m/s.
     /// </remarks>
-    MTS,
+    MTS = 27,
 
     /// <summary>
     /// millihertz
@@ -233,7 +233,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of frequency equal to 0.001 cycle per second.
     /// </remarks>
-    MTZ,
+    MTZ = 28,
 
     /// <summary>
     /// megavolt-ampere
@@ -241,7 +241,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// MVA unit as per UN/CEFACT recommendation 20.
     /// </remarks>
-    MVA,
+    MVA = 29,
 
     /// <summary>
     /// megawatt hours
@@ -249,7 +249,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// The total amount of bulk energy transferred or consumed.
     /// </remarks>
-    MWH,
+    MWH = 30,
 
     /// <summary>
     /// percent
@@ -257,7 +257,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A unit of proportion equal to 0.01.
     /// </remarks>
-    P1,
+    P1 = 31,
 
     /// <summary>
     /// second
@@ -265,7 +265,7 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// A period of time equal to one second.
     /// </remarks>
-    SEC,
+    SEC = 32,
 
     /// <summary>
     /// watt
@@ -273,6 +273,6 @@ public enum UnitOfMeasureType
     /// <remarks>
     /// The watt is the International System of Units (SI) standard unit of power (energy per unit time), the equivalent of one joule per second.
     /// </remarks>
-    WTT
+    WTT = 33
 }
 

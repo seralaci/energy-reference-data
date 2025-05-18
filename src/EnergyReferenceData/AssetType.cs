@@ -17,7 +17,7 @@ public enum AssetType
     /// <remarks>
     /// A high voltage line used for cross border energy interconnections.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Line
@@ -25,7 +25,7 @@ public enum AssetType
     /// <remarks>
     /// A specific electric line within a country.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Resource Object
@@ -33,7 +33,7 @@ public enum AssetType
     /// <remarks>
     /// A resource that can either produce or consume energy.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Generation
@@ -41,7 +41,7 @@ public enum AssetType
     /// <remarks>
     /// A resource that can produce energy.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Load
@@ -49,7 +49,7 @@ public enum AssetType
     /// <remarks>
     /// A resource that can consume energy.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Phase Shift Transformer
@@ -57,7 +57,7 @@ public enum AssetType
     /// <remarks>
     /// An electrical device for controlling the power flow through specific lines in a power transmission network.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Circuit Breaker
@@ -65,7 +65,7 @@ public enum AssetType
     /// <remarks>
     /// An electrical switch designed to protect an electrical circuit from damage caused by overcurrent/overload or short circuit.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// Busbar
@@ -73,7 +73,7 @@ public enum AssetType
     /// <remarks>
     /// A specific element within a substation to connect grid elements for energy distribution purposes.
     /// </remarks>
-    A08,
+    A08 = 8,
 
     /// <summary>
     /// Capacitor
@@ -81,7 +81,7 @@ public enum AssetType
     /// <remarks>
     /// A transmission element designed to inject reactive power into the transmission network. 
     /// </remarks>
-    A09,
+    A09 = 9,
 
     /// <summary>
     /// Inductor
@@ -89,7 +89,7 @@ public enum AssetType
     /// <remarks>
     /// A transmission element designed to compensate reactive power in the transmission network.
     /// </remarks>
-    A10,
+    A10 = 10,
 
     /// <summary>
     /// Power plant connection
@@ -97,7 +97,7 @@ public enum AssetType
     /// <remarks>
     /// All the network equipment that link the generating unit to the grid.
     /// </remarks>
-    A11,
+    A11 = 11,
 
     /// <summary>
     /// FACTS
@@ -105,7 +105,7 @@ public enum AssetType
     /// <remarks>
     /// Flexible Alternating Current Transmission System
     /// </remarks>
-    A12,
+    A12 = 12,
 
     /// <summary>
     /// Production unit
@@ -113,7 +113,7 @@ public enum AssetType
     /// <remarks>
     /// A production unit is a composition of one or several generation units.
     /// </remarks>
-    A13,
+    A13 = 13,
 
     /// <summary>
     /// Internal tie line
@@ -121,7 +121,7 @@ public enum AssetType
     /// <remarks>
     /// An internal tie line is a line between two scheduling areas within the same bidding zone.
     /// </remarks>
-    A14,
+    A14 = 14,
 
     /// <summary>
     /// Biomass
@@ -129,7 +129,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using biomass for energy.
     /// </remarks>
-    B01,
+    B01 = 15,
 
     /// <summary>
     /// Fossil Brown coal/Lignite
@@ -137,7 +137,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Fossil Brown coal/Lignite for energy.
     /// </remarks>
-    B02,
+    B02 = 16,
 
     /// <summary>
     /// Fossil Coal-derived gas
@@ -145,7 +145,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Fossil Coal-derived gas for energy.
     /// </remarks>
-    B03,
+    B03 = 17,
 
     /// <summary>
     /// Fossil Gas
@@ -153,7 +153,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Fossil Gas for energy.
     /// </remarks>
-    B04,
+    B04 = 18,
 
     /// <summary>
     /// Fossil Hard coal
@@ -161,7 +161,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Fossil Hard coal for energy.
     /// </remarks>
-    B05,
+    B05 = 19,
 
     /// <summary>
     /// Fossil Oil
@@ -169,7 +169,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Fossil Oil for energy.
     /// </remarks>
-    B06,
+    B06 = 20,
 
     /// <summary>
     /// Fossil Oil shale
@@ -177,7 +177,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Fossil Oil shale for energy.
     /// </remarks>
-    B07,
+    B07 = 21,
 
     /// <summary>
     /// Fossil Peat
@@ -185,7 +185,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Fossil Peat for energy.
     /// </remarks>
-    B08,
+    B08 = 22,
 
     /// <summary>
     /// Geothermal
@@ -193,7 +193,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Geothermal for energy.
     /// </remarks>
-    B09,
+    B09 = 23,
 
     /// <summary>
     /// Hydro-electric pure pumped storage head installation
@@ -201,7 +201,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs. Pure pumped storage plants store water in an upper reservoir with no natural inflows.
     /// </remarks>
-    B10,
+    B10 = 24,
 
     /// <summary>
     /// Hydro Run-of-river head installation
@@ -209,7 +209,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which moving water energy is converted to electricity using flowing water to generate electricity in the absence of a large dam and reservoirs.
     /// </remarks>
-    B11,
+    B11 = 25,
 
     /// <summary>
     /// Hydro-electric storage head installation
@@ -217,7 +217,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs.
     /// </remarks>
-    B12,
+    B12 = 26,
 
     /// <summary>
     /// Marine unspecified
@@ -225,7 +225,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which marine energy is converted to electricity with equipment/devices not specified.
     /// </remarks>
-    B13,
+    B13 = 27,
 
     /// <summary>
     /// Nuclear unspecified
@@ -233,7 +233,7 @@ public enum AssetType
     /// <remarks>
     /// A unit in which the heat source is a nuclear reactor of type that is not specified in other nuclear types. 
     /// </remarks>
-    B14,
+    B14 = 28,
 
     /// <summary>
     /// Other renewable
@@ -241,7 +241,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Other renewable for energy.
     /// </remarks>
-    B15,
+    B15 = 29,
 
     /// <summary>
     /// Solar unspecified
@@ -249,7 +249,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which solar energy is converted to electricity with equipment/devices not specified.
     /// </remarks>
-    B16,
+    B16 = 30,
 
     /// <summary>
     /// Waste
@@ -257,7 +257,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using Waste for energy.
     /// </remarks>
-    B17,
+    B17 = 31,
 
     /// <summary>
     /// Wind Offshore
@@ -265,7 +265,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which wind energy is converted to electricity using wind farms constructed in bodies of water, usually in the ocean.
     /// </remarks>
-    B18,
+    B18 = 32,
 
     /// <summary>
     /// Wind Onshore
@@ -273,7 +273,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which wind energy is converted to electricity using wind farms constructed on land.
     /// </remarks>
-    B19,
+    B19 = 33,
 
     /// <summary>
     /// Other unspecified
@@ -281,7 +281,7 @@ public enum AssetType
     /// <remarks>
     /// Other unspecified technology.
     /// </remarks>
-    B20,
+    B20 = 34,
 
     /// <summary>
     /// AC Link
@@ -289,7 +289,7 @@ public enum AssetType
     /// <remarks>
     /// Overhead line or cable which is used to transmit electrical power via Alternative Current.
     /// </remarks>
-    B21,
+    B21 = 35,
 
     /// <summary>
     /// DC Link
@@ -297,7 +297,7 @@ public enum AssetType
     /// <remarks>
     /// Overhead line or cable which is used to transmit electrical power via Direct Current.
     /// </remarks>
-    B22,
+    B22 = 36,
 
     /// <summary>
     /// Substation
@@ -305,7 +305,7 @@ public enum AssetType
     /// <remarks>
     /// An assembly of equipment in an electric power system through which electric energy is passed for transmission, transformation, distribution or switching.
     /// </remarks>
-    B23,
+    B23 = 37,
 
     /// <summary>
     /// Transformer
@@ -313,7 +313,7 @@ public enum AssetType
     /// <remarks>
     /// Electrical device that transfers energy from one voltage level to another voltage level.
     /// </remarks>
-    B24,
+    B24 = 38,
 
     /// <summary>
     /// Energy storage
@@ -321,7 +321,7 @@ public enum AssetType
     /// <remarks>
     /// A resource that stores energy. It could be gas, electricity, etc.
     /// </remarks>
-    B25,
+    B25 = 39,
 
     /// <summary>
     /// Demand Side Response
@@ -329,7 +329,7 @@ public enum AssetType
     /// <remarks>
     /// A resource that change its electricity consumption patterns in response to a signal or incentive.
     /// </remarks>
-    B26,
+    B26 = 40,
 
     /// <summary>
     /// Dispatchable hydro resource
@@ -337,7 +337,7 @@ public enum AssetType
     /// <remarks>
     /// A resource referring to dispatchable hydro generation.
     /// </remarks>
-    B27,
+    B27 = 41,
 
     /// <summary>
     /// Solar photovoltaic
@@ -345,7 +345,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which solar energy is converted to electricity using a technology based on the photoelectric effect.
     /// </remarks>
-    B28,
+    B28 = 42,
 
     /// <summary>
     /// Solar concentration
@@ -353,7 +353,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which solar energy is converted to electricity using mirrors to concentrate the sun's energy to drive traditional steam turbines or engines.
     /// </remarks>
-    B29,
+    B29 = 43,
 
     /// <summary>
     /// Wind unspecified
@@ -361,7 +361,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which wind energy is converted to electricity with equipment/devices not specified.
     /// </remarks>
-    B30,
+    B30 = 44,
 
     /// <summary>
     /// Hydro-electric unspecified
@@ -369,7 +369,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which moving water energy is converted to electricity with equipment/devices not specified. 
     /// </remarks>
-    B31,
+    B31 = 45,
 
     /// <summary>
     /// Hydro-electric mixed pumped storage head installation
@@ -377,7 +377,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs. Mixed pumped storage plants use a combination of pumped storage and conventional hydroelectric plants with an upper reservoir that is replenished in part by natural inflows from a stream or river.
     /// </remarks>
-    B32,
+    B32 = 46,
 
     /// <summary>
     /// Marine tidal
@@ -385,7 +385,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which marine energy from tides is converted to electricity.
     /// </remarks>
-    B33,
+    B33 = 47,
 
     /// <summary>
     /// Marine wave
@@ -393,7 +393,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which marine energy from waves is converted to electricity.
     /// </remarks>
-    B34,
+    B34 = 48,
 
     /// <summary>
     /// Marine currents
@@ -401,7 +401,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which marine energy from currents is converted to electricity.
     /// </remarks>
-    B35,
+    B35 = 49,
 
     /// <summary>
     /// Marine pressure
@@ -409,7 +409,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which marine energy from pressure is converted to electricity.
     /// </remarks>
-    B36,
+    B36 = 50,
 
     /// <summary>
     /// Thermal unspecified
@@ -417,7 +417,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which heat energy is converted to electricity with equipment/devices not specified in other thermal types.
     /// </remarks>
-    B37,
+    B37 = 51,
 
     /// <summary>
     /// Thermal combined cycle gas turbine with heat recovery
@@ -425,7 +425,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which heat energy is converted to electricity called Combined Cycle Gas Turbine. The power is generated by the single or multiple gas turbine(s) in combination with the steam turbine(s). The unit might be equipped with waste heat recovery (e.g. to district heating network).
     /// </remarks>
-    B38,
+    B38 = 52,
 
     /// <summary>
     /// Thermal steam turbine with back-pressure turbine (open cycle)
@@ -433,7 +433,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which heat energy is converted to electricity. The power is generated with the steam that is expanded in the back-pressure steam turbine with or without heat output (e.g. to district heating network).
     /// </remarks>
-    B39,
+    B39 = 53,
 
     /// <summary>
     /// Thermal steam turbine with condensation turbine (closed cycle)
@@ -441,7 +441,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which heat energy is converted to electricity. The power is generated with the steam that is expanded in the condensation steam turbine with or without heat output (e.g. to district heating network).
     /// </remarks>
-    B40,
+    B40 = 54,
 
     /// <summary>
     /// Thermal gas turbine with heat recovery
@@ -449,7 +449,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine and the flue gas waste heat is recovered (e.g. to district heating network).
     /// </remarks>
-    B41,
+    B41 = 55,
 
     /// <summary>
     /// Thermal internal combustion engine
@@ -457,7 +457,7 @@ public enum AssetType
     /// <remarks>
     /// An internal combustion engine is a heat engine in which the combustion of a fuel occurs with an oxidizer (usually air) in a combustion chamber that is an integral part of the working fluid flow circuit (e.g. reciprocating engine). The unit might be equipped with waste heat recovery (e.g. to district heating network).
     /// </remarks>
-    B42,
+    B42 = 56,
 
     /// <summary>
     /// Thermal micro-turbine
@@ -465,7 +465,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine (capacity less than 500kWe). The unit might be equipped with waste heat recovery (e.g. to district heating network).
     /// </remarks>
-    B43,
+    B43 = 57,
 
     /// <summary>
     /// Thermal Stirling engine
@@ -473,7 +473,7 @@ public enum AssetType
     /// <remarks>
     /// A Stirling engine is a heat engine that is operated by the cyclic compression and expansion of air or other gas (the working fluid) at different temperatures, resulting in a net conversion of heat energy to mechanical work.
     /// </remarks>
-    B44,
+    B44 = 58,
 
     /// <summary>
     /// Thermal fuel cell
@@ -481,7 +481,7 @@ public enum AssetType
     /// <remarks>
     /// A fuel cell is an electrochemical cell that converts the chemical energy of a fuel (e.g. hydrogen) and an oxidizing agent (e.g. oxygen) into electricity through a pair of redox reactions.
     /// </remarks>
-    B45,
+    B45 = 59,
 
     /// <summary>
     /// Thermal steam engine
@@ -489,7 +489,7 @@ public enum AssetType
     /// <remarks>
     /// A steam engine is a heat engine that performs mechanical work using steam as its working fluid. The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder.
     /// </remarks>
-    B46,
+    B46 = 60,
 
     /// <summary>
     /// Thermal organic Rankine cycle
@@ -497,7 +497,7 @@ public enum AssetType
     /// <remarks>
     /// The Organic Rankine Cycle (ORC) is named for its use of an organic, high molecular mass fluid with a liquid-vapor phase change, or boiling point, occurring at a lower temperature than the water-steam phase change. The fluid allows Rankine cycle heat recovery from lower temperature sources such as biomass combustion, industrial waste heat, geothermal heat, solar ponds etc. The low-temperature heat is converted into useful work, that can itself be converted into electricity.
     /// </remarks>
-    B47,
+    B47 = 61,
 
     /// <summary>
     /// Thermal gas turbine without heat recovery
@@ -505,7 +505,7 @@ public enum AssetType
     /// <remarks>
     /// Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine and there is no flue gas waste heat recovery.
     /// </remarks>
-    B48,
+    B48 = 62,
 
     /// <summary>
     /// Nuclear heavy water reactor
@@ -513,7 +513,7 @@ public enum AssetType
     /// <remarks>
     /// A unit in which the heat source is a pressurized heavy-water reactor (PHWR) that is a nuclear reactor that uses heavy water (deuterium oxide D2O) as its coolant and neutron moderator.
     /// </remarks>
-    B49,
+    B49 = 63,
 
     /// <summary>
     /// Nuclear light water reactor
@@ -521,7 +521,7 @@ public enum AssetType
     /// <remarks>
     /// A unit in which the heat source is a light-water reactor (LWR) that is a type of thermal-neutron reactor that uses normal water, as both its coolant and neutron moderator � furthermore a solid form of fissile elements is used as fuel. 
     /// </remarks>
-    B50,
+    B50 = 64,
 
     /// <summary>
     /// Nuclear breeder
@@ -529,7 +529,7 @@ public enum AssetType
     /// <remarks>
     /// A unit in which the heat source is a nuclear reactor that generates more fissile material than it consumes.
     /// </remarks>
-    B51,
+    B51 = 65,
 
     /// <summary>
     /// Nuclear graphite reactor
@@ -537,7 +537,7 @@ public enum AssetType
     /// <remarks>
     /// A unit in which the heat source is a graphite-moderated reactor that is a nuclear reactor that uses carbon as a neutron moderator, which allows natural uranium to be used as nuclear fuel.
     /// </remarks>
-    B52,
+    B52 = 66,
 
     /// <summary>
     /// Temporary energy storage
@@ -545,7 +545,7 @@ public enum AssetType
     /// <remarks>
     /// A resource that is temporarily connected to the grid and that may store energy when connected, such as an electric vehicle.
     /// </remarks>
-    B53,
+    B53 = 67,
 
     /// <summary>
     /// Permanent energy storage
@@ -553,7 +553,7 @@ public enum AssetType
     /// <remarks>
     /// A resource that is permanently connected to the grid and that may store energy when connected, such as a pumped hydro.
     /// </remarks>
-    B54,
+    B54 = 68,
 
     /// <summary>
     /// Electric vehicle battery
@@ -561,7 +561,7 @@ public enum AssetType
     /// <remarks>
     /// A resource using electric vehicle batteries, commercial and private. The reason for separating vehicle batteries and non-vehicle batteries is that the vehicle batteries not necessarily is connected to the charger.
     /// </remarks>
-    B55,
+    B55 = 69,
 
     /// <summary>
     /// Heat pump specified
@@ -569,7 +569,7 @@ public enum AssetType
     /// <remarks>
     /// A heat pump is a device that uses work to transfer heat from a cool space to a warm space by transferring thermal energy using a refrigeration cycle
     /// </remarks>
-    B56,
+    B56 = 70,
 
     /// <summary>
     /// Heat pump electrical
@@ -577,7 +577,7 @@ public enum AssetType
     /// <remarks>
     /// A heat pump is a device that uses electricity to transfer heat from a cool space to a warm space by transferring thermal energy using a refrigeration cycle.
     /// </remarks>
-    B57,
+    B57 = 71,
 
     /// <summary>
     /// Heat pump absorption
@@ -585,7 +585,7 @@ public enum AssetType
     /// <remarks>
     /// A heat pump is a device that uses absorption technology to transfer heat from a cool space to a warm space by transferring thermal energy using a refrigeration cycle.
     /// </remarks>
-    B58,
+    B58 = 72,
 
     /// <summary>
     /// Auxiliary power unit
@@ -593,7 +593,7 @@ public enum AssetType
     /// <remarks>
     /// A technology that provides energy as a backup.
     /// </remarks>
-    B59,
+    B59 = 73,
 
     /// <summary>
     /// Water electrolysis unspecified
@@ -601,7 +601,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified water electrolysis. 
     /// </remarks>
-    B60,
+    B60 = 74,
 
     /// <summary>
     /// Water electrolysis low temperature unspecified
@@ -609,7 +609,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified water electrolysis at low temperature as in an Alkaline or Proto-Exchange Membrane (PEM) fuel cell.
     /// </remarks>
-    B61,
+    B61 = 75,
 
     /// <summary>
     /// Water electrolysis low temperature main product
@@ -617,7 +617,7 @@ public enum AssetType
     /// <remarks>
     /// Main product water electrolysis at low temperature as in an Alkaline or Proto-Exchange Membrane (PEM) fuel cell.
     /// </remarks>
-    B62,
+    B62 = 76,
 
     /// <summary>
     /// Water electrolysis high temperature unspecified
@@ -625,7 +625,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified water electrolysis at high temperature as in a Solid Oxide Electrolysis Cell (SOEC) fuel cell.
     /// </remarks>
-    B63,
+    B63 = 77,
 
     /// <summary>
     /// Steam methane reforming unspecified
@@ -633,7 +633,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified methane reforming.
     /// </remarks>
-    B64,
+    B64 = 78,
 
     /// <summary>
     /// Steam methane reforming without CCS/CCU  unspecified
@@ -641,7 +641,7 @@ public enum AssetType
     /// <remarks>
     /// Main product methane reforming without Carbon Capture and Sequestration (CCS)/Carbon Capture and Use (CCU).  
     /// </remarks>
-    B65,
+    B65 = 79,
 
     /// <summary>
     /// Steam methane reforming with CCS/CCU  unspecified
@@ -649,7 +649,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified methane reforming with Carbon Capture and Sequestration (CCS)/Carbon Capture and Use (CCU).    
     /// </remarks>
-    B66,
+    B66 = 80,
 
     /// <summary>
     /// Steam methane reforming with CCS/CCU  main product
@@ -657,7 +657,7 @@ public enum AssetType
     /// <remarks>
     /// Main product methane reforming with Carbon Capture and Sequestration (CCS)/Carbon Capture and Use (CCU).    
     /// </remarks>
-    B67,
+    B67 = 81,
 
     /// <summary>
     /// Partial oxidation unspecified
@@ -665,7 +665,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified partial oxidation.
     /// </remarks>
-    B68,
+    B68 = 82,
 
     /// <summary>
     /// Autothermal reforming unspecified
@@ -673,7 +673,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified autothermal reforming.
     /// </remarks>
-    B69,
+    B69 = 83,
 
     /// <summary>
     /// Methanol reforming unspecified
@@ -681,7 +681,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified methanol reforming.
     /// </remarks>
-    B70,
+    B70 = 84,
 
     /// <summary>
     /// Ammonia reforming unspecified
@@ -689,7 +689,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified ammonia reforming.
     /// </remarks>
-    B71,
+    B71 = 85,
 
     /// <summary>
     /// Ammonia gasification
@@ -697,7 +697,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified gasification.
     /// </remarks>
-    B72,
+    B72 = 86,
 
     /// <summary>
     /// Chlor-alkali electrolysis unspecified
@@ -705,7 +705,7 @@ public enum AssetType
     /// <remarks>
     /// Unspecified alkali electrolysis.
     /// </remarks>
-    B73,
+    B73 = 87,
 
     /// <summary>
     /// Chlor-alkali electrolysis by-product
@@ -713,7 +713,7 @@ public enum AssetType
     /// <remarks>
     /// Alkali electrolysis product.
     /// </remarks>
-    B74,
+    B74 = 88,
 
     /// <summary>
     /// ACDC converter
@@ -721,7 +721,7 @@ public enum AssetType
     /// <remarks>
     /// ACDC converters are electrical circuits that transform alternating current (AC) into direct current (DC) and vice versa.
     /// </remarks>
-    B75,
+    B75 = 89,
 
     /// <summary>
     /// Converter
@@ -729,6 +729,6 @@ public enum AssetType
     /// <remarks>
     /// Electrical device that converts current between AC and DC.
     /// </remarks>
-    B76
+    B76 = 90
 }
 

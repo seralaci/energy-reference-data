@@ -17,7 +17,7 @@ public enum EicType
     /// <remarks>
     /// An EIC code to substations.
     /// </remarks>
-    A,
+    A = 1,
 
     /// <summary>
     /// Tieline
@@ -25,7 +25,7 @@ public enum EicType
     /// <remarks>
     /// An EIC code to identify tielines.
     /// </remarks>
-    T,
+    T = 2,
 
     /// <summary>
     /// Location
@@ -33,7 +33,7 @@ public enum EicType
     /// <remarks>
     /// An EIC code to identify locations.
     /// </remarks>
-    V,
+    V = 3,
 
     /// <summary>
     /// Resource Object
@@ -41,7 +41,7 @@ public enum EicType
     /// <remarks>
     /// An EIC code to identify resource objects.
     /// </remarks>
-    W,
+    W = 4,
 
     /// <summary>
     /// Party
@@ -49,7 +49,7 @@ public enum EicType
     /// <remarks>
     /// An EIC code to identify parties.
     /// </remarks>
-    X,
+    X = 5,
 
     /// <summary>
     /// Area or Domain
@@ -57,7 +57,7 @@ public enum EicType
     /// <remarks>
     /// An EIC code to identify areas or domains.
     /// </remarks>
-    Y,
+    Y = 6,
 
     /// <summary>
     /// Measurement point
@@ -65,6 +65,6 @@ public enum EicType
     /// <remarks>
     /// An EIC code to identify measurement points.
     /// </remarks>
-    Z
+    Z = 7
 }
 

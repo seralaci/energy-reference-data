@@ -1,6 +1,8 @@
 // Based on ENTSO-E codelist 92 Release Date: 2025-01-13
 // https://www.entsoe.eu/publications/electronic-data-interchange-edi-library/
 
+using System.Xml.Serialization;
+
 namespace EnergyReferenceData;
 
 /// <summary>
@@ -17,6 +19,7 @@ public enum UnitMultiplier
     /// <remarks>
     /// No multiplier or equivalently multiply by 1.
     /// </remarks>
-    _1
+    [XmlEnum("1")]
+    None = 1
 }
 

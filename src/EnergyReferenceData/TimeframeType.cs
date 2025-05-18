@@ -17,7 +17,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns real time timeframe.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Intraday
@@ -25,7 +25,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns an intra day timeframe. 
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Hour-1
@@ -33,7 +33,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 1 hour ahead for given delivery hour.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Hour-2
@@ -41,7 +41,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 2 hours ahead for given delivery hour.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Hour-3
@@ -49,7 +49,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 3 hours ahead for given delivery hour.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Hour-4
@@ -57,7 +57,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 4 hours ahead for given delivery hour.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Hour-5
@@ -65,7 +65,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 5 hours ahead for given delivery hour.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// Hour-6
@@ -73,7 +73,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 6 hours ahead for given delivery hour.
     /// </remarks>
-    A08,
+    A08 = 8,
 
     /// <summary>
     /// Hour-7
@@ -81,7 +81,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 7 hours ahead for given delivery hour.
     /// </remarks>
-    A09,
+    A09 = 9,
 
     /// <summary>
     /// Hour-8
@@ -89,7 +89,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 8 hours ahead for given delivery hour.
     /// </remarks>
-    A10,
+    A10 = 10,
 
     /// <summary>
     /// Hour-9
@@ -97,7 +97,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 9 hours ahead for given delivery hour.
     /// </remarks>
-    A11,
+    A11 = 11,
 
     /// <summary>
     /// Hour-10
@@ -105,7 +105,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 10 hours ahead for given delivery hour.
     /// </remarks>
-    A12,
+    A12 = 12,
 
     /// <summary>
     /// Hour-11
@@ -113,7 +113,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 11 hours ahead for given delivery hour.
     /// </remarks>
-    A13,
+    A13 = 13,
 
     /// <summary>
     /// Hour-12
@@ -121,7 +121,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 12 hours ahead for given delivery hour.
     /// </remarks>
-    A14,
+    A14 = 14,
 
     /// <summary>
     /// Hour-13
@@ -129,7 +129,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 13 hours ahead for given delivery hour.
     /// </remarks>
-    A15,
+    A15 = 15,
 
     /// <summary>
     /// Hour-14
@@ -137,7 +137,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 14 hours ahead for given delivery hour.
     /// </remarks>
-    A16,
+    A16 = 16,
 
     /// <summary>
     /// Hour-15
@@ -145,7 +145,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 15 hours ahead for given delivery hour.
     /// </remarks>
-    A17,
+    A17 = 17,
 
     /// <summary>
     /// Hour-16
@@ -153,7 +153,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 16 hours ahead for given delivery hour.
     /// </remarks>
-    A18,
+    A18 = 18,
 
     /// <summary>
     /// Hour-17
@@ -161,7 +161,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 17 hours ahead for given delivery hour.
     /// </remarks>
-    A19,
+    A19 = 19,
 
     /// <summary>
     /// Hour-18
@@ -169,7 +169,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 18 hours ahead for given delivery hour.
     /// </remarks>
-    A20,
+    A20 = 20,
 
     /// <summary>
     /// Hour-19
@@ -177,7 +177,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 19 hours ahead for given delivery hour.
     /// </remarks>
-    A21,
+    A21 = 21,
 
     /// <summary>
     /// Hour-20
@@ -185,7 +185,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 20 hours ahead for given delivery hour.
     /// </remarks>
-    A22,
+    A22 = 22,
 
     /// <summary>
     /// Hour-21
@@ -193,7 +193,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 21 hours ahead for given delivery hour.
     /// </remarks>
-    A23,
+    A23 = 23,
 
     /// <summary>
     /// Hour-22
@@ -201,7 +201,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 22 hours ahead for given delivery hour.
     /// </remarks>
-    A24,
+    A24 = 24,
 
     /// <summary>
     /// Hour-23
@@ -209,7 +209,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 23 hours ahead for given delivery hour.
     /// </remarks>
-    A25,
+    A25 = 25,
 
     /// <summary>
     /// Hour-24
@@ -217,7 +217,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 24 hours ahead for given delivery hour.
     /// </remarks>
-    A26,
+    A26 = 26,
 
     /// <summary>
     /// Hour-25
@@ -225,7 +225,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 25 hours ahead for given delivery hour.
     /// </remarks>
-    A27,
+    A27 = 27,
 
     /// <summary>
     /// Hour-26
@@ -233,7 +233,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 26 hours ahead for given delivery hour.
     /// </remarks>
-    A28,
+    A28 = 28,
 
     /// <summary>
     /// Hour-27
@@ -241,7 +241,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 27 hours ahead for given delivery hour.
     /// </remarks>
-    A29,
+    A29 = 29,
 
     /// <summary>
     /// Hour-28
@@ -249,7 +249,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 28 hours ahead for given delivery hour.
     /// </remarks>
-    A30,
+    A30 = 30,
 
     /// <summary>
     /// Hour-29
@@ -257,7 +257,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 29 hours ahead for given delivery hour.
     /// </remarks>
-    A31,
+    A31 = 31,
 
     /// <summary>
     /// Hour-30
@@ -265,7 +265,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 30 hours ahead for given delivery hour.
     /// </remarks>
-    A32,
+    A32 = 32,
 
     /// <summary>
     /// Hour-31
@@ -273,7 +273,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 31 hours ahead for given delivery hour.
     /// </remarks>
-    A33,
+    A33 = 33,
 
     /// <summary>
     /// Day ahead
@@ -281,7 +281,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns day ahead timeframe.
     /// </remarks>
-    A34,
+    A34 = 34,
 
     /// <summary>
     /// Day-2
@@ -289,7 +289,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns two days ahead timeframe.	/// 
     /// </remarks>
-    A35,
+    A35 = 35,
 
     /// <summary>
     /// Day-3
@@ -297,7 +297,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns three days ahead timeframe.	/// 
     /// </remarks>
-    A36,
+    A36 = 36,
 
     /// <summary>
     /// Day-4
@@ -305,7 +305,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns four days ahead timeframe.
     /// </remarks>
-    A37,
+    A37 = 37,
 
     /// <summary>
     /// Day-5
@@ -313,7 +313,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns five days ahead timeframe.	/// 	/// 
     /// </remarks>
-    A38,
+    A38 = 38,
 
     /// <summary>
     /// Day-6
@@ -321,7 +321,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns six days ahead timeframe.	/// 	/// 
     /// </remarks>
-    A39,
+    A39 = 39,
 
     /// <summary>
     /// Day-7
@@ -329,7 +329,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns seven days ahead timeframe.	/// 	/// 
     /// </remarks>
-    A40,
+    A40 = 40,
 
     /// <summary>
     /// Week ahead
@@ -337,7 +337,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns next week ahead timeframe.
     /// </remarks>
-    A41,
+    A41 = 41,
 
     /// <summary>
     /// Week-0
@@ -345,7 +345,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns current week timeframe.	/// 
     /// </remarks>
-    A42,
+    A42 = 42,
 
     /// <summary>
     /// Week+1
@@ -353,7 +353,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns previous week timeframe.	/// 
     /// </remarks>
-    A43,
+    A43 = 43,
 
     /// <summary>
     /// Month ahead
@@ -361,7 +361,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns month ahead timeframe.	/// 
     /// </remarks>
-    A44,
+    A44 = 44,
 
     /// <summary>
     /// Year ahead
@@ -369,7 +369,7 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns year ahead timeframe.
     /// </remarks>
-    A45,
+    A45 = 45,
 
     /// <summary>
     /// Year-10
@@ -377,6 +377,6 @@ public enum TimeframeType
     /// <remarks>
     /// The information provided concerns 10 years ahead timeframe.
     /// </remarks>
-    A46
+    A46 = 46
 }
 

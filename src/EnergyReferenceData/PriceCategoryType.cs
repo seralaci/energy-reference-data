@@ -17,7 +17,7 @@ public enum PriceCategoryType
     /// <remarks>
     /// A category one price calculation is to be applied.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Category 2
@@ -25,7 +25,7 @@ public enum PriceCategoryType
     /// <remarks>
     /// A category two price calculation is to be applied.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Category 3
@@ -33,7 +33,7 @@ public enum PriceCategoryType
     /// <remarks>
     /// A category three price calculation is to be applied.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Excess balance
@@ -41,7 +41,7 @@ public enum PriceCategoryType
     /// <remarks>
     /// The category concerns excess balance.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// Insufficient balance
@@ -49,7 +49,7 @@ public enum PriceCategoryType
     /// <remarks>
     /// A category concerns insufficient balance.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// Average bid price
@@ -57,7 +57,7 @@ public enum PriceCategoryType
     /// <remarks>
     /// The average bid price for a given product.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Single marginal bid price
@@ -65,7 +65,7 @@ public enum PriceCategoryType
     /// <remarks>
     /// The downwards activated bid price  or the upwards activated  bid price for activated balancing reserves.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// Cross-border marginal price
@@ -73,6 +73,6 @@ public enum PriceCategoryType
     /// <remarks>
     /// The price determined in accordance with article 3 of the methodology for pricing balancing energy.
     /// </remarks>
-    A08
+    A08 = 8
 }
 

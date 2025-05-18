@@ -17,7 +17,7 @@ public enum IndicatorType
     /// <remarks>
     /// A positive indication.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// NO
@@ -25,6 +25,6 @@ public enum IndicatorType
     /// <remarks>
     /// A negative indication.
     /// </remarks>
-    A02
+    A02 = 2
 }
 

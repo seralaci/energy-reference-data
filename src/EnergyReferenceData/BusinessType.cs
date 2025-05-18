@@ -17,7 +17,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is production details.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Internal trade
@@ -25,7 +25,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is internal trade details.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// External trade explicit capacity
@@ -33,7 +33,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is external trade details between two areas with limited capacity requiring a capacity agreement identification.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Consumption
@@ -41,7 +41,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is consumption details.
     /// </remarks>
-    A04,
+    A04 = 4,
 
     /// <summary>
     /// External trade total
@@ -49,7 +49,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is external trade total.
     /// </remarks>
-    A05,
+    A05 = 5,
 
     /// <summary>
     /// External trade without explicit capacity
@@ -57,7 +57,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is external trade details between two areas without requiring capacity allocation information.
     /// </remarks>
-    A06,
+    A06 = 6,
 
     /// <summary>
     /// Net Production / Consumption
@@ -65,7 +65,7 @@ public enum BusinessType
     /// <remarks>
     /// Net production/consumption - where signed values will be used. 	/// With the following rules: In area=Out area, In party=Out party, + means production and - means consumption.
     /// </remarks>
-    A07,
+    A07 = 7,
 
     /// <summary>
     /// Net internal trade
@@ -73,7 +73,7 @@ public enum BusinessType
     /// <remarks>
     /// Net internal trade - where the direction from out party (seller) to in party (buyer) is positive and the opposite direction is negative (with minus signs).
     /// </remarks>
-    A08,
+    A08 = 8,
 
     /// <summary>
     /// IPP (Independent Power Producer)
@@ -81,7 +81,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the production schedule from an IPP.
     /// </remarks>
-    A09,
+    A09 = 9,
 
     /// <summary>
     /// Tertiary control 
@@ -89,7 +89,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning tertiary reserve.
     /// </remarks>
-    A10,
+    A10 = 10,
 
     /// <summary>
     /// Primary control
@@ -97,7 +97,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning primary reserve.
     /// </remarks>
-    A11,
+    A11 = 11,
 
     /// <summary>
     /// Secondary control
@@ -105,7 +105,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning secondary reserve.
     /// </remarks>
-    A12,
+    A12 = 12,
 
     /// <summary>
     /// Load profile
@@ -113,7 +113,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning a load profile as calculated by a metered data aggregator.
     /// </remarks>
-    A13,
+    A13 = 13,
 
     /// <summary>
     /// Aggregated energy data
@@ -121,7 +121,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning adjusted metered readings received from a metered data collector and aggregated and validated by a metered data aggregator.
     /// </remarks>
-    A14,
+    A14 = 14,
 
     /// <summary>
     /// Losses
@@ -129,7 +129,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning losses that have been calculated for a tieline or an area.
     /// </remarks>
-    A15,
+    A15 = 15,
 
     /// <summary>
     /// Transits (CBT)
@@ -137,7 +137,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning inter area transit flows determined for CBT requirements.
     /// </remarks>
-    A16,
+    A16 = 16,
 
     /// <summary>
     /// Settlement deviation
@@ -145,7 +145,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the imbalance energy calculated by an imbalance settlement responsible.
     /// </remarks>
-    A17,
+    A17 = 17,
 
     /// <summary>
     /// Technical constraint deviation
@@ -153,7 +153,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series defining the imbalance between schedules accepted by the system operator due to technical constraints and schedules declared by the balance responsible party.
     /// </remarks>
-    A18,
+    A18 = 18,
 
     /// <summary>
     /// Balance energy deviation
@@ -161,7 +161,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series defining the imbalance between the schedule of a balance responsible party that has been corrected by the system operator after using balance energy bids and the schedule that was accepted by the system operator due to technical constraints.
     /// </remarks>
-    A19,
+    A19 = 19,
 
     /// <summary>
     /// Imbalance volume
@@ -169,7 +169,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series defining the imbalance between the actual meter readings and the schedule of the balance responsible party corrected by the system operator after using balance energy bids.
     /// </remarks>
-    A20,
+    A20 = 20,
 
     /// <summary>
     /// Unintended energy
@@ -177,7 +177,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning the volume of an unintended cross-border exchange of energy.
     /// </remarks>
-    A21,
+    A21 = 21,
 
     /// <summary>
     /// Frequency control
@@ -185,7 +185,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning primary and secondary reserve.
     /// </remarks>
-    A22,
+    A22 = 22,
 
     /// <summary>
     /// Balance management
@@ -193,7 +193,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning energy balancing services.
     /// </remarks>
-    A23,
+    A23 = 23,
 
     /// <summary>
     /// Total trade
@@ -201,7 +201,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the total of both the internal and external trades.
     /// </remarks>
-    A24,
+    A24 = 24,
 
     /// <summary>
     /// General Capacity Information
@@ -209,7 +209,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series providing the total capacity available on a TSO border.
     /// </remarks>
-    A25,
+    A25 = 25,
 
     /// <summary>
     /// Available transfer capacity (ATC)
@@ -217,7 +217,7 @@ public enum BusinessType
     /// <remarks>
     /// Available transfer capacity for cross-border exchanges.
     /// </remarks>
-    A26,
+    A26 = 26,
 
     /// <summary>
     /// Net transfer capacity (NTC)
@@ -225,7 +225,7 @@ public enum BusinessType
     /// <remarks>
     /// Net transfer capacity for cross-border exchanges.
     /// </remarks>
-    A27,
+    A27 = 27,
 
     /// <summary>
     /// Control Area Program
@@ -233,7 +233,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series providing the total exchanges between two TSOs (including the commercial transactions, the compensation program and the losses compensation program). 	/// Note this definition might change when UCTE brings forward its coding requirements.
     /// </remarks>
-    A28,
+    A28 = 28,
 
     /// <summary>
     /// Already allocated capacity (AAC)
@@ -241,7 +241,7 @@ public enum BusinessType
     /// <remarks>
     /// The already allocated capacity is the total amount of allocated transmission rights.
     /// </remarks>
-    A29,
+    A29 = 29,
 
     /// <summary>
     /// Internal inter area trade
@@ -249,7 +249,7 @@ public enum BusinessType
     /// <remarks>
     /// A trade that occurs between internal areas within a market balance area.
     /// </remarks>
-    A30,
+    A30 = 30,
 
     /// <summary>
     /// Offered Capacity
@@ -257,7 +257,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides the offered capacity.
     /// </remarks>
-    A31,
+    A31 = 31,
 
     /// <summary>
     /// Capacity transfer notification
@@ -265,7 +265,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides information concerning the notification of the transfer of capacity to another market participant.
     /// </remarks>
-    A32,
+    A32 = 32,
 
     /// <summary>
     /// Authorised AAC
@@ -273,7 +273,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides the amount of transmission capacity rights to be nominated.
     /// </remarks>
-    A33,
+    A33 = 33,
 
     /// <summary>
     /// Capacity rights
@@ -281,7 +281,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides the capacity rights allocated for a given border.
     /// </remarks>
-    A34,
+    A34 = 34,
 
     /// <summary>
     /// Minimum authorised AAC
@@ -289,7 +289,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides the minimum amount of transmission capacity rights to be nominated.
     /// </remarks>
-    A35,
+    A35 = 35,
 
     /// <summary>
     /// Maximum authorised AAC
@@ -297,7 +297,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides the maximum amount of transmission capacity rights to be nominated.
     /// </remarks>
-    A36,
+    A36 = 36,
 
     /// <summary>
     /// Installed generation
@@ -305,7 +305,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides the installed generation.
     /// </remarks>
-    A37,
+    A37 = 37,
 
     /// <summary>
     /// Available generation
@@ -313,7 +313,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides the available generation.
     /// </remarks>
-    A38,
+    A38 = 38,
 
     /// <summary>
     /// Interconnection Trade Responsible Designation
@@ -321,7 +321,7 @@ public enum BusinessType
     /// <remarks>
     /// The Time series in question provides the designation of the ITR that may nominate the capacity in question.
     /// </remarks>
-    A40,
+    A40 = 39,
 
     /// <summary>
     /// Released AAC
@@ -329,7 +329,7 @@ public enum BusinessType
     /// <remarks>
     /// The already allocated capacity (AAC) that has been released for resale.
     /// </remarks>
-    A41,
+    A41 = 40,
 
     /// <summary>
     /// Requested capacity (with price)
@@ -337,7 +337,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides information concerning the requested capacity including price information.
     /// </remarks>
-    A42,
+    A42 = 41,
 
     /// <summary>
     /// Requested capacity (without price)
@@ -345,7 +345,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides information concerning the requested capacity but excludes price information.
     /// </remarks>
-    A43,
+    A43 = 42,
 
     /// <summary>
     /// Compensation program
@@ -353,7 +353,7 @@ public enum BusinessType
     /// <remarks>
     /// Compensation of unintentional deviation is performed by exporting to / importing from the interconnected system during the compensation period by means of schedules as calculated during the accounting of unintentional deviations.
     /// </remarks>
-    A44,
+    A44 = 43,
 
     /// <summary>
     /// Schedule activated reserves
@@ -361,7 +361,7 @@ public enum BusinessType
     /// <remarks>
     /// The cross border or internal reserves that are to be activated through schedule nomination.
     /// </remarks>
-    A45,
+    A45 = 44,
 
     /// <summary>
     /// System Operator redispatching
@@ -369,7 +369,7 @@ public enum BusinessType
     /// <remarks>
     /// The cross border redispatching between System Operators that are to be activated through schedule nomination.
     /// </remarks>
-    A46,
+    A46 = 45,
 
     /// <summary>
     /// Market capacity price
@@ -377,7 +377,7 @@ public enum BusinessType
     /// <remarks>
     /// The price of the capacity offered on a given market.
     /// </remarks>
-    A47,
+    A47 = 46,
 
     /// <summary>
     /// Market capacity price differential
@@ -385,7 +385,7 @@ public enum BusinessType
     /// <remarks>
     /// The difference between the price of capacity in a Market Balance Area receiving the capacity (In Area) and the price of capacity in a Market Balance Area providing the capacity (Out Area), i.e. In Area Price - Out Area price.
     /// </remarks>
-    A48,
+    A48 = 47,
 
     /// <summary>
     /// Inflow
@@ -393,7 +393,7 @@ public enum BusinessType
     /// <remarks>
     /// The volume of water that flows into a reservoir in a given interval.
     /// </remarks>
-    A49,
+    A49 = 48,
 
     /// <summary>
     /// Water extraction
@@ -401,7 +401,7 @@ public enum BusinessType
     /// <remarks>
     /// The volume of water that can be extracted from a reservoir in a given interval.
     /// </remarks>
-    A50,
+    A50 = 49,
 
     /// <summary>
     /// Turbined water
@@ -409,7 +409,7 @@ public enum BusinessType
     /// <remarks>
     /// The volume of water that can be turbined in a plant in a given interval.
     /// </remarks>
-    A51,
+    A51 = 50,
 
     /// <summary>
     /// Water spillage
@@ -417,7 +417,7 @@ public enum BusinessType
     /// <remarks>
     /// The volume of water that is not turbined going through the spillway in a given interval.
     /// </remarks>
-    A52,
+    A52 = 51,
 
     /// <summary>
     /// Planned maintenance
@@ -425,7 +425,7 @@ public enum BusinessType
     /// <remarks>
     /// Maintenance has been planned for the object in question with a forecast ending date.
     /// </remarks>
-    A53,
+    A53 = 52,
 
     /// <summary>
     /// Unplanned outage
@@ -433,7 +433,7 @@ public enum BusinessType
     /// <remarks>
     /// An unplanned outage has occurred on the object in question.
     /// </remarks>
-    A54,
+    A54 = 53,
 
     /// <summary>
     /// Use it Or Sell it (UIOSI) pricing
@@ -441,7 +441,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides information on the capacity resold in the "use it or sell it" process and its corresponding price.
     /// </remarks>
-    A55,
+    A55 = 54,
 
     /// <summary>
     /// Compensation for auction cancellation where capacity is for resale
@@ -449,7 +449,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides information on the compensation of the capacity for resale following an auction cancellation.
     /// </remarks>
-    A56,
+    A56 = 55,
 
     /// <summary>
     /// Resale pricing
@@ -457,7 +457,7 @@ public enum BusinessType
     /// <remarks>
     /// For each Physical Transmission Rights holder, this document contains the resold capacity and its corresponding price.
     /// </remarks>
-    A57,
+    A57 = 56,
 
     /// <summary>
     /// Curtailed capacity compensation
@@ -465,7 +465,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides information to compensate a party when curtailment is applied on the capacity obtained in a previous auction, resale or transfer.
     /// </remarks>
-    A58,
+    A58 = 57,
 
     /// <summary>
     /// Use it Or Sell it (UIOSI) compensation
@@ -473,7 +473,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides information on the compensation for the capacity following an auction cancellation.
     /// </remarks>
-    A59,
+    A59 = 58,
 
     /// <summary>
     /// Minimum possible
@@ -481,7 +481,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides a schedule of minimum possible values for a Resource Object. The nature of the flow could be defined by the attribute Direction.
     /// </remarks>
-    A60,
+    A60 = 59,
 
     /// <summary>
     /// Maximum available
@@ -489,7 +489,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides a schedule of maximum available values for a Resource Object. The nature of the flow could be defined by the attribute Direction.
     /// </remarks>
-    A61,
+    A61 = 60,
 
     /// <summary>
     /// Spot price
@@ -497,7 +497,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides the market spot prices from an auction.
     /// </remarks>
-    A62,
+    A62 = 61,
 
     /// <summary>
     /// Minimum ATC
@@ -505,7 +505,7 @@ public enum BusinessType
     /// <remarks>
     /// The Available Transmission Capacity that must be guaranteed because of regulatory constraints.
     /// </remarks>
-    A63,
+    A63 = 62,
 
     /// <summary>
     /// Meter Measurement data 
@@ -513,7 +513,7 @@ public enum BusinessType
     /// <remarks>
     /// The data as provided for a meter measurement source.
     /// </remarks>
-    A64,
+    A64 = 63,
 
     /// <summary>
     /// Accounting Point Relevant data 
@@ -521,7 +521,7 @@ public enum BusinessType
     /// <remarks>
     /// The metered data that is to be considered relevant for accounting purposes.
     /// </remarks>
-    A65,
+    A65 = 64,
 
     /// <summary>
     /// Energy flow
@@ -529,7 +529,7 @@ public enum BusinessType
     /// <remarks>
     /// Energy flow information.
     /// </remarks>
-    A66,
+    A66 = 65,
 
     /// <summary>
     /// Power plant energy Schedule
@@ -537,7 +537,7 @@ public enum BusinessType
     /// <remarks>
     /// Energy flow scheduled for a power plant.
     /// </remarks>
-    A67,
+    A67 = 66,
 
     /// <summary>
     /// Compensation Requirements for the compensation period
@@ -545,7 +545,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides the compensation requirements for a given compensation period.
     /// </remarks>
-    A68,
+    A68 = 67,
 
     /// <summary>
     /// Market coupling results
@@ -553,7 +553,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides the results of a market coupling auction.
     /// </remarks>
-    A69,
+    A69 = 68,
 
     /// <summary>
     /// Production, unavailable
@@ -561,7 +561,7 @@ public enum BusinessType
     /// <remarks>
     /// Production capacity that normally would be available, but due to maintenance or similar is temporarily unavailable.
     /// </remarks>
-    A70,
+    A70 = 69,
 
     /// <summary>
     /// Supplementary available generation
@@ -569,7 +569,7 @@ public enum BusinessType
     /// <remarks>
     /// The supplementary generation that is available.
     /// </remarks>
-    A71,
+    A71 = 70,
 
     /// <summary>
     /// Interruptible consumption
@@ -577,7 +577,7 @@ public enum BusinessType
     /// <remarks>
     /// The consumption that may be interrupted on request.
     /// </remarks>
-    A72,
+    A72 = 71,
 
     /// <summary>
     /// Summarised Market Balance Area Schedule
@@ -585,7 +585,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series providing the total exchanges based on commercial transactions between two Market Balance Areas.
     /// </remarks>
-    A73,
+    A73 = 72,
 
     /// <summary>
     /// Load Frequency Control Program Schedule
@@ -593,7 +593,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series providing the schedule information for the Load Frequency Control Program.
     /// </remarks>
-    A74,
+    A74 = 73,
 
     /// <summary>
     /// Timeframe Independent Schedule
@@ -601,7 +601,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series providing the total exchanges of Timeframe Independent Schedules between two System Operators.
     /// </remarks>
-    A75,
+    A75 = 74,
 
     /// <summary>
     /// Consumption curtailment
@@ -609,7 +609,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series providing the amount of voluntary consumption curtailed by the energy supplier of an end-consumer.
     /// </remarks>
-    A76,
+    A76 = 75,
 
     /// <summary>
     /// Production, dispatchable
@@ -617,7 +617,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is dispatchable production details, i.e. generation output that can be changed by a request (activation order) of the TSO according with the applicable Market Rules. 
     /// </remarks>
-    A77,
+    A77 = 76,
 
     /// <summary>
     /// Consumption, dispatchable
@@ -625,7 +625,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is dispatchable consumption details, i.e. consumption output that can be changed by a request (activation order) of the TSO according with the applicable Market Rules. 
     /// </remarks>
-    A78,
+    A78 = 77,
 
     /// <summary>
     /// Production, non-dispatchable
@@ -633,7 +633,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is non-dispatchable production details, i.e. generation output that cannot be modified by an activation order.
     /// </remarks>
-    A79,
+    A79 = 78,
 
     /// <summary>
     /// Consumption, non-dispatchable
@@ -641,7 +641,7 @@ public enum BusinessType
     /// <remarks>
     /// The nature of the business being described is non-dispatchable consumption details, i.e. consumption output that cannot be modified by an activation order.
     /// </remarks>
-    A80,
+    A80 = 79,
 
     /// <summary>
     /// Total Transfer Capacity (TTC)
@@ -649,7 +649,7 @@ public enum BusinessType
     /// <remarks>
     /// The Total Transfer Capacity is the maximum exchange program between two areas compatible with operational security standards applicable at each system if future network conditions, generation and load patterns were perfectly known in advance.
     /// </remarks>
-    A81,
+    A81 = 80,
 
     /// <summary>
     /// Mutual Emergency Assistance Service (MEAS) 
@@ -657,7 +657,7 @@ public enum BusinessType
     /// <remarks>
     /// The cross border Mutual Emergency Assistance Service between System Operators that are to be activated through schedule nomination.
     /// </remarks>
-    A82,
+    A82 = 81,
 
     /// <summary>
     /// Auction cancelation 
@@ -665,7 +665,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series covers auction cancellation right.
     /// </remarks>
-    A83,
+    A83 = 82,
 
     /// <summary>
     /// Nomination curtailment
@@ -673,7 +673,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series covers nomination curtailment rights 
     /// </remarks>
-    A84,
+    A84 = 83,
 
     /// <summary>
     /// Internal redispatch
@@ -681,7 +681,7 @@ public enum BusinessType
     /// <remarks>
     /// Redispatch to relieve Market Balance Area internal congestion.
     /// </remarks>
-    A85,
+    A85 = 84,
 
     /// <summary>
     /// Control area balance energy
@@ -689,7 +689,7 @@ public enum BusinessType
     /// <remarks>
     /// A sum of secondary, tertiary control as well as other energy that was used to balance a control area.
     /// </remarks>
-    A86,
+    A86 = 85,
 
     /// <summary>
     /// Balancing energy price
@@ -697,7 +697,7 @@ public enum BusinessType
     /// <remarks>
     /// Price of energy used to balance.
     /// </remarks>
-    A87,
+    A87 = 86,
 
     /// <summary>
     /// Economised secondary reserve
@@ -705,7 +705,7 @@ public enum BusinessType
     /// <remarks>
     /// The activated secondary reserve that had been economised due to pooled reserve management.
     /// </remarks>
-    A88,
+    A88 = 87,
 
     /// <summary>
     /// Spinning reserve
@@ -713,7 +713,7 @@ public enum BusinessType
     /// <remarks>
     /// The extra generating capacity that is available by increasing the production of generators that are already connected to the power system.
     /// </remarks>
-    A89,
+    A89 = 88,
 
     /// <summary>
     /// Solar
@@ -721,7 +721,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns solar power.
     /// </remarks>
-    A90,
+    A90 = 89,
 
     /// <summary>
     /// positive forecast margin
@@ -729,7 +729,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns a positive forecast margin.
     /// </remarks>
-    A91,
+    A91 = 90,
 
     /// <summary>
     /// Negative forecast margin
@@ -737,7 +737,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns a negative forecast margin.
     /// </remarks>
-    A92,
+    A92 = 91,
 
     /// <summary>
     /// Wind generation
@@ -745,7 +745,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns wind generation.
     /// </remarks>
-    A93,
+    A93 = 92,
 
     /// <summary>
     /// Solar generation
@@ -753,7 +753,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns solar generation.
     /// </remarks>
-    A94,
+    A94 = 93,
 
     /// <summary>
     /// Frequency containment reserve
@@ -761,7 +761,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns frequency containment reserve.
     /// </remarks>
-    A95,
+    A95 = 94,
 
     /// <summary>
     /// Automatic frequency restoration reserve
@@ -769,7 +769,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns automatic frequency restoration reserve.
     /// </remarks>
-    A96,
+    A96 = 95,
 
     /// <summary>
     /// Manual frequency restoration reserve
@@ -777,7 +777,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns manual frequency restoration reserve.
     /// </remarks>
-    A97,
+    A97 = 96,
 
     /// <summary>
     /// Replacement reserve
@@ -785,7 +785,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns replacement reserve.
     /// </remarks>
-    A98,
+    A98 = 97,
 
     /// <summary>
     /// Financial information
@@ -793,7 +793,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns financial information.
     /// </remarks>
-    A99,
+    A99 = 98,
 
     /// <summary>
     /// Interconnector network evolution
@@ -801,7 +801,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns interconnector network evolution.
     /// </remarks>
-    B01,
+    B01 = 99,
 
     /// <summary>
     /// Interconnector network dismantling
@@ -809,7 +809,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns interconnector network dismantling.
     /// </remarks>
-    B02,
+    B02 = 100,
 
     /// <summary>
     /// Counter trade
@@ -817,7 +817,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns counter trades.
     /// </remarks>
-    B03,
+    B03 = 101,
 
     /// <summary>
     /// Congestion costs
@@ -825,7 +825,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns congestion costs.
     /// </remarks>
-    B04,
+    B04 = 102,
 
     /// <summary>
     /// Capacity allocated (including price)
@@ -833,7 +833,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns capacity allocation and includes price information.
     /// </remarks>
-    B05,
+    B05 = 103,
 
     /// <summary>
     /// DC link constraint
@@ -841,7 +841,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns DC link constraints.
     /// </remarks>
-    B06,
+    B06 = 104,
 
     /// <summary>
     /// Auction revenue
@@ -849,7 +849,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns auction revenue.
     /// </remarks>
-    B07,
+    B07 = 105,
 
     /// <summary>
     /// Total nominated capacity
@@ -857,7 +857,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns the total nominated capacity.
     /// </remarks>
-    B08,
+    B08 = 106,
 
     /// <summary>
     /// Net position
@@ -865,7 +865,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns net position.
     /// </remarks>
-    B09,
+    B09 = 107,
 
     /// <summary>
     /// Congestion income
@@ -873,7 +873,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns congestion income.
     /// </remarks>
-    B10,
+    B10 = 108,
 
     /// <summary>
     /// Production unit
@@ -881,7 +881,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns a production unit.
     /// </remarks>
-    B11,
+    B11 = 109,
 
     /// <summary>
     /// Rounded market coupling results
@@ -889,7 +889,7 @@ public enum BusinessType
     /// <remarks>
     /// Rounded outputs of the market coupling to be sent to TSOs and Market Participants.
     /// </remarks>
-    B12,
+    B12 = 110,
 
     /// <summary>
     /// Allocation Revenue
@@ -897,7 +897,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides information on the revenue generated by the allocations.
     /// </remarks>
-    B13,
+    B13 = 111,
 
     /// <summary>
     /// Production deviation
@@ -905,7 +905,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the imbalance energy between the metered production and the schedules calculated by an imbalance settlement responsible.
     /// </remarks>
-    B14,
+    B14 = 112,
 
     /// <summary>
     /// Consumption deviation
@@ -913,7 +913,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the imbalance energy between  metered consumption and the forecasted consumption calculated by an imbalance settlement responsible.
     /// </remarks>
-    B15,
+    B15 = 113,
 
     /// <summary>
     /// Transmission asset
@@ -921,7 +921,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns a transmission asset.
     /// </remarks>
-    B16,
+    B16 = 114,
 
     /// <summary>
     /// Consumption unit
@@ -929,7 +929,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns a consumption unit.
     /// </remarks>
-    B17,
+    B17 = 115,
 
     /// <summary>
     /// In-feed ATC
@@ -937,7 +937,7 @@ public enum BusinessType
     /// <remarks>
     /// Available Transfer Capacity at the in-feed side of a DC tieline.
     /// </remarks>
-    B18,
+    B18 = 116,
 
     /// <summary>
     /// Out-feed ATC
@@ -945,7 +945,7 @@ public enum BusinessType
     /// <remarks>
     /// Available Transfer Capacity at the out-feed side of a DC tieline.
     /// </remarks>
-    B19,
+    B19 = 117,
 
     /// <summary>
     /// Balance up regulation price
@@ -953,7 +953,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning balance regulation market prices for up regulation.
     /// </remarks>
-    B20,
+    B20 = 118,
 
     /// <summary>
     /// Balance down regulation price
@@ -961,7 +961,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning balance regulation market prices for down regulation.
     /// </remarks>
-    B21,
+    B21 = 119,
 
     /// <summary>
     /// Main direction
@@ -969,7 +969,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the direction of balance regulations.
     /// </remarks>
-    B22,
+    B22 = 120,
 
     /// <summary>
     /// Consumption imbalance price
@@ -977,7 +977,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning imbalance prices for consumption.
     /// </remarks>
-    B23,
+    B23 = 121,
 
     /// <summary>
     /// Production sales imbalance price
@@ -985,7 +985,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning imbalance prices for production sales.
     /// </remarks>
-    B24,
+    B24 = 122,
 
     /// <summary>
     /// Production purchase imbalance price
@@ -993,7 +993,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning imbalance prices for production purchase.
     /// </remarks>
-    B25,
+    B25 = 123,
 
     /// <summary>
     /// Average balance price between MBAs
@@ -1001,7 +1001,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the average prices between Market Balance Areas.
     /// </remarks>
-    B26,
+    B26 = 124,
 
     /// <summary>
     /// Pumped
@@ -1009,7 +1009,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the electricity consumption related to pumping.
     /// </remarks>
-    B27,
+    B27 = 125,
 
     /// <summary>
     /// Large installation consumption
@@ -1017,7 +1017,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning consumption from large installation.
     /// </remarks>
-    B28,
+    B28 = 126,
 
     /// <summary>
     /// Metering Grid Area (MGA) imbalance
@@ -1025,7 +1025,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning imbalance between reported consumption, production and exchange in a Metering Grid Area.
     /// </remarks>
-    B29,
+    B29 = 127,
 
     /// <summary>
     /// HVDC Link settings
@@ -1033,7 +1033,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series in question provides HVDC Link settings.
     /// </remarks>
-    B30,
+    B30 = 128,
 
     /// <summary>
     /// Transmission Reliability Margin (TRM)
@@ -1041,7 +1041,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning Transmission Reliability Margin (TRM).
     /// </remarks>
-    B31,
+    B31 = 129,
 
     /// <summary>
     /// Imbalance component for a pool
@@ -1049,7 +1049,7 @@ public enum BusinessType
     /// <remarks>
     /// This information is used to provide to a pool manager the combined imbalance of all the pool participants.
     /// </remarks>
-    B32,
+    B32 = 130,
 
     /// <summary>
     /// Area Control error (ACE)
@@ -1057,7 +1057,7 @@ public enum BusinessType
     /// <remarks>
     /// The sum of the instantaneous difference between the actual and the set-point value of the measured total power value and Control Program including Virtual Tie-Lines for the power interchange of a LFC Area or a LFC Block and the frequency bias given by the product of the K-Factor of the LFC Area or the LFC Block and the Frequency Deviation.
     /// </remarks>
-    B33,
+    B33 = 131,
 
     /// <summary>
     /// Area Control Error after Imbalance Netting
@@ -1065,7 +1065,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the Area Control Error after applying the  imbalance netting energy correction.
     /// </remarks>
-    B34,
+    B34 = 132,
 
     /// <summary>
     /// Implicit and explicit trade total
@@ -1073,7 +1073,7 @@ public enum BusinessType
     /// <remarks>
     /// The sum of cross border schedules based on implicit and explicit trades including long term, yearly, monthly, weekly, daily processes. 
     /// </remarks>
-    B35,
+    B35 = 133,
 
     /// <summary>
     /// Production units own consumption
@@ -1081,7 +1081,7 @@ public enum BusinessType
     /// <remarks>
     /// The consumption of one or more production units.
     /// </remarks>
-    B36,
+    B36 = 134,
 
     /// <summary>
     /// Constraint situation
@@ -1089,7 +1089,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeseries describes the constraint situation for a given TimeInterval.	/// A constraint situation can be: 	/// - composed of a list of network elements in outage associated for each outage to a list of network elements on which remedial actions have been carried out accordingly to contingency process 	/// - or it can be an external constraint.
     /// </remarks>
-    B37,
+    B37 = 135,
 
     /// <summary>
     /// Initial domain
@@ -1097,7 +1097,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeseries describe the full flow based domain for a given TimeInterval. 	/// Critical network elements are displayed in details and their impact on the market is quantified.
     /// </remarks>
-    B38,
+    B38 = 136,
 
     /// <summary>
     /// Flow based domain adjusted to long term schedules
@@ -1105,7 +1105,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeseries describe the full flow based domain for a given TimeInterval adjusted to the latest update of the schedules. 	/// Critical network elements are displayed in details and their impact on the market is quantified.
     /// </remarks>
-    B39,
+    B39 = 137,
 
     /// <summary>
     /// Network element constraint
@@ -1113,7 +1113,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeSeries describes limiting elements which are overloaded.
     /// </remarks>
-    B40,
+    B40 = 138,
 
     /// <summary>
     /// Calculation opposition (Red Flag)
@@ -1121,7 +1121,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeSeries describes a party who is opposed to the calculation result and imposes its transfer capacity value.
     /// </remarks>
-    B41,
+    B41 = 139,
 
     /// <summary>
     /// Base case proportional shift key
@@ -1129,7 +1129,7 @@ public enum BusinessType
     /// <remarks>
     /// The GSK or LSK are proportional to the base case generation or load.
     /// </remarks>
-    B42,
+    B42 = 140,
 
     /// <summary>
     /// Proportional to participation factors shift key
@@ -1137,7 +1137,7 @@ public enum BusinessType
     /// <remarks>
     /// The GSK or LSK are proportional to the participation factors.
     /// </remarks>
-    B43,
+    B43 = 141,
 
     /// <summary>
     /// Proportional to the remaining capacity shift key
@@ -1145,7 +1145,7 @@ public enum BusinessType
     /// <remarks>
     /// The GSK is proportional to the remaining available capacity.
     /// </remarks>
-    B44,
+    B44 = 142,
 
     /// <summary>
     /// Merit order shift key
@@ -1153,7 +1153,7 @@ public enum BusinessType
     /// <remarks>
     /// The GSK is proportional to a merit order list.
     /// </remarks>
-    B45,
+    B45 = 143,
 
     /// <summary>
     /// Wind speed
@@ -1161,7 +1161,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries provides information on the wind speed.
     /// </remarks>
-    B46,
+    B46 = 144,
 
     /// <summary>
     /// Wind direction
@@ -1169,7 +1169,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries provides information on the wind direction.
     /// </remarks>
-    B47,
+    B47 = 145,
 
     /// <summary>
     /// Solar irradiance
@@ -1177,7 +1177,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries provides information on the power per unit area produced by the sun in the form of electromagnetic radiation.
     /// </remarks>
-    B48,
+    B48 = 146,
 
     /// <summary>
     /// Air temperature
@@ -1185,7 +1185,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries provides information on the air temperature.
     /// </remarks>
-    B49,
+    B49 = 147,
 
     /// <summary>
     /// Cloudiness
@@ -1193,7 +1193,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries provides information on the cloudiness, i.e. the level of coverage of the sky with clouds.
     /// </remarks>
-    B50,
+    B50 = 148,
 
     /// <summary>
     /// Air humidity
@@ -1201,7 +1201,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries provides information on the level of humidity of the air.
     /// </remarks>
-    B51,
+    B51 = 149,
 
     /// <summary>
     /// Atmospheric pressure
@@ -1209,7 +1209,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries provides information on the atmospheric pressure.
     /// </remarks>
-    B52,
+    B52 = 150,
 
     /// <summary>
     /// Precipitation
@@ -1217,7 +1217,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries provides information on the amount of rain, snow, etc. that falls on the ground.
     /// </remarks>
-    B53,
+    B53 = 151,
 
     /// <summary>
     /// Network constraint situation that constraints the market
@@ -1225,7 +1225,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes the network elements, that constraints the market, to be taken into account to simulate a network constraint during the network load flow studies. The network situation includes the contingencies, the remedial actions, the monitored network elements and the potential additional constraints.
     /// </remarks>
-    B54,
+    B54 = 152,
 
     /// <summary>
     /// Contingency
@@ -1233,7 +1233,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes the network elements part of the contingency to be simulated for a given TimeInterval.
     /// </remarks>
-    B55,
+    B55 = 153,
 
     /// <summary>
     /// Remedial Action
@@ -1241,7 +1241,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes a set of remedial actions for a given TimeInterval.
     /// </remarks>
-    B56,
+    B56 = 154,
 
     /// <summary>
     /// Monitored Network Element
@@ -1249,7 +1249,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes the network elements to be monitored during the network load flow studies.
     /// </remarks>
-    B57,
+    B57 = 155,
 
     /// <summary>
     /// Busbar
@@ -1257,7 +1257,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes the network elements that composed a busbar.
     /// </remarks>
-    B58,
+    B58 = 156,
 
     /// <summary>
     /// Network Element
@@ -1265,7 +1265,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes network elements.
     /// </remarks>
-    B59,
+    B59 = 157,
 
     /// <summary>
     /// SPS
@@ -1273,7 +1273,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes the network elements managed by a Special Protection System (automation).
     /// </remarks>
-    B60,
+    B60 = 158,
 
     /// <summary>
     /// Aggregated netted external market schedule
@@ -1281,7 +1281,7 @@ public enum BusinessType
     /// <remarks>
     /// The aggregated netted external market schedules for a given border.
     /// </remarks>
-    B61,
+    B61 = 159,
 
     /// <summary>
     /// Aggregated netted external TSO schedule
@@ -1289,7 +1289,7 @@ public enum BusinessType
     /// <remarks>
     /// The aggregated netted external TSO schedules for a given border.
     /// </remarks>
-    B62,
+    B62 = 160,
 
     /// <summary>
     /// Aggregated netted external schedule
@@ -1297,7 +1297,7 @@ public enum BusinessType
     /// <remarks>
     /// The aggregated netted external schedules for a given border.
     /// </remarks>
-    B63,
+    B63 = 161,
 
     /// <summary>
     /// Netted area AC position
@@ -1305,7 +1305,7 @@ public enum BusinessType
     /// <remarks>
     /// The AC position for a given area.
     /// </remarks>
-    B64,
+    B64 = 162,
 
     /// <summary>
     /// Netted area position
@@ -1313,7 +1313,7 @@ public enum BusinessType
     /// <remarks>
     /// The netted aggregation of all AC external schedules of an area plus the aggregated External Netted Schedules of related HVDC links of an area.
     /// </remarks>
-    B65,
+    B65 = 163,
 
     /// <summary>
     /// Interconnection shift key
@@ -1321,7 +1321,7 @@ public enum BusinessType
     /// <remarks>
     /// The shift key series describes the amount of power to be shifted from a border area.	/// 
     /// </remarks>
-    B66,
+    B66 = 164,
 
     /// <summary>
     /// DC flow with losses
@@ -1329,7 +1329,7 @@ public enum BusinessType
     /// <remarks>
     /// DC flow with losses refers to the values at the importing end of the DC line.
     /// </remarks>
-    B67,
+    B67 = 165,
 
     /// <summary>
     /// DC flow without losses
@@ -1337,7 +1337,7 @@ public enum BusinessType
     /// <remarks>
     /// DC flow without losses refers to the values at the exporting end of the DC line.
     /// </remarks>
-    B68,
+    B68 = 166,
 
     /// <summary>
     /// minimum value of netted area position
@@ -1345,7 +1345,7 @@ public enum BusinessType
     /// <remarks>
     /// That value which a netted area position must not fall below for a given area.
     /// </remarks>
-    B69,
+    B69 = 167,
 
     /// <summary>
     /// maximum value of netted area position
@@ -1353,7 +1353,7 @@ public enum BusinessType
     /// <remarks>
     /// That value which a netted area position must not exceed for a given optimisation area. 
     /// </remarks>
-    B70,
+    B70 = 168,
 
     /// <summary>
     /// maximum value of DC flow
@@ -1361,7 +1361,7 @@ public enum BusinessType
     /// <remarks>
     /// That value which a balanced DC flow must not exceed for a given DC line on exporting end. When aligning DC flows CGMA algorithm will respect this constraint.
     /// </remarks>
-    B71,
+    B71 = 169,
 
     /// <summary>
     /// minimum value of DC flow
@@ -1369,7 +1369,7 @@ public enum BusinessType
     /// <remarks>
     /// That value which a balanced DC flow must not fall below for a given DC line on exporting end. Currently this business type is only included for consistency reasons. It is always set to 0. This constraint might, however, be used in future. When aligning DC flows the CGMA algorithm will respect this constraint.
     /// </remarks>
-    B72,
+    B72 = 170,
 
     /// <summary>
     /// indicative AC flow
@@ -1377,7 +1377,7 @@ public enum BusinessType
     /// <remarks>
     /// It is the hypothetical flow on the aggregate of all AC tie lines of an electrical border between two optimisation areas. It results from the adjustments to the preliminary netted area positions of all optimisation areas made by the CGMA algorithm. Indicative AC flows are an artefact of the CGMA algorithm, and do not correspond to physical flows
     /// </remarks>
-    B73,
+    B73 = 171,
 
     /// <summary>
     /// Offer
@@ -1385,7 +1385,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides an offer to provide reserves. 
     /// </remarks>
-    B74,
+    B74 = 172,
 
     /// <summary>
     /// Need
@@ -1393,7 +1393,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series provides a requirement for reserves.	/// 
     /// </remarks>
-    B75,
+    B75 = 173,
 
     /// <summary>
     /// Opportunity costs or benefits
@@ -1401,7 +1401,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series describes any opportunity costs or benefits.
     /// </remarks>
-    B76,
+    B76 = 174,
 
     /// <summary>
     /// Financial compensation or penalties
@@ -1409,7 +1409,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series describes any financial compensation or penalties
     /// </remarks>
-    B77,
+    B77 = 175,
 
     /// <summary>
     /// Global radiation
@@ -1417,7 +1417,7 @@ public enum BusinessType
     /// <remarks>
     /// The total short-wave radiation from the Global radiation is the total short-wave radiation from the sky falling onto a horizontal surface on the ground. It includes both the direct solar radiation and the diffuse radiation resulting from reflected or scattered sunlight.
     /// </remarks>
-    B78,
+    B78 = 176,
 
     /// <summary>
     /// Diffuse radiation
@@ -1425,7 +1425,7 @@ public enum BusinessType
     /// <remarks>
     /// Radiation resulting from reflected or scattered sunlight.
     /// </remarks>
-    B79,
+    B79 = 177,
 
     /// <summary>
     /// Direct solar radiation
@@ -1433,7 +1433,7 @@ public enum BusinessType
     /// <remarks>
     /// Radiation resulting from direct sunlight
     /// </remarks>
-    B80,
+    B80 = 178,
 
     /// <summary>
     /// Outage (OUT)
@@ -1441,7 +1441,7 @@ public enum BusinessType
     /// <remarks>
     /// Outage process: Element is out of operation due to planned maintenance or due to an unplanned/forced outage. Outage may be used as a synonym for unavailability. 
     /// </remarks>
-    B81,
+    B81 = 179,
 
     /// <summary>
     /// Special switching state (SSS)
@@ -1449,7 +1449,7 @@ public enum BusinessType
     /// <remarks>
     /// Outage Process: This state applies to grid elements which are in operation in an exceptional state (e.g. separated nodes operation).
     /// </remarks>
-    B82,
+    B82 = 180,
 
     /// <summary>
     /// Testing (TEST)
@@ -1457,7 +1457,7 @@ public enum BusinessType
     /// <remarks>
     /// Outage process: TESTING means any element status is possible - ON or OUT. This status applies either between first connection and final commissioning of the relevant asset, or directly following maintenance of the relevant asset.
     /// </remarks>
-    B83,
+    B83 = 181,
 
     /// <summary>
     /// Auxiliary busbar operation
@@ -1465,7 +1465,7 @@ public enum BusinessType
     /// <remarks>
     /// Outage process: Element is in operation but connected via auxiliary busbar
     /// </remarks>
-    B84,
+    B84 = 182,
 
     /// <summary>
     /// Automatic reclosing
@@ -1473,7 +1473,7 @@ public enum BusinessType
     /// <remarks>
     /// Outage process: Protection function Automatic reclosing is switched off for electric line
     /// </remarks>
-    B85,
+    B85 = 183,
 
     /// <summary>
     /// Busbar protection
@@ -1481,7 +1481,7 @@ public enum BusinessType
     /// <remarks>
     /// Protection function busbar protection is switched off
     /// </remarks>
-    B86,
+    B86 = 184,
 
     /// <summary>
     /// Phase Shift Angle
@@ -1489,7 +1489,7 @@ public enum BusinessType
     /// <remarks>
     /// The maximum phase shift angle allowed between two network elements. 
     /// </remarks>
-    B87,
+    B87 = 185,
 
     /// <summary>
     /// Base Case Network Situation
@@ -1497,7 +1497,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes the network elements to be taken into account to simulate a base case network situation during the network load flow studies, without any contingency.
     /// </remarks>
-    B88,
+    B88 = 186,
 
     /// <summary>
     /// Inter-TSO assistance
@@ -1505,7 +1505,7 @@ public enum BusinessType
     /// <remarks>
     /// Cross border assistance schedule between TSOs not interconnected directly. 
     /// </remarks>
-    B89,
+    B89 = 187,
 
     /// <summary>
     /// FlexibleNeed
@@ -1513,7 +1513,7 @@ public enum BusinessType
     /// <remarks>
     /// The business type indicates that the need is optional.
     /// </remarks>
-    B90,
+    B90 = 188,
 
     /// <summary>
     /// GLSK Limitation
@@ -1521,7 +1521,7 @@ public enum BusinessType
     /// <remarks>
     /// A constraint related to a GLSK maximum or minimum limitation in the production or/and consumption shift.
     /// </remarks>
-    B91,
+    B91 = 189,
 
     /// <summary>
     /// Capacity ramping limitation
@@ -1529,7 +1529,7 @@ public enum BusinessType
     /// <remarks>
     /// A constraint related to a ramping limitation on the capacity offered at a given border.
     /// </remarks>
-    B92,
+    B92 = 190,
 
     /// <summary>
     /// interconnector capacity
@@ -1537,7 +1537,7 @@ public enum BusinessType
     /// <remarks>
     /// The maximum capacity that can be exchanged on an interconnector, excluding external factor on both ends. 
     /// </remarks>
-    B93,
+    B93 = 191,
 
     /// <summary>
     /// Must Run
@@ -1545,7 +1545,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning must run generation.
     /// </remarks>
-    B94,
+    B94 = 192,
 
     /// <summary>
     /// Procured capacity
@@ -1553,7 +1553,7 @@ public enum BusinessType
     /// <remarks>
     /// An accepted offer of balancing capacity.
     /// </remarks>
-    B95,
+    B95 = 193,
 
     /// <summary>
     /// Used capacity
@@ -1561,7 +1561,7 @@ public enum BusinessType
     /// <remarks>
     /// The used cross-zonal balancing capacity.
     /// </remarks>
-    B96,
+    B96 = 194,
 
     /// <summary>
     /// Estimated costs
@@ -1569,7 +1569,7 @@ public enum BusinessType
     /// <remarks>
     /// Estimated costs of the process.
     /// </remarks>
-    B97,
+    B97 = 195,
 
     /// <summary>
     /// Estimated benefits
@@ -1577,7 +1577,7 @@ public enum BusinessType
     /// <remarks>
     /// Estimated benefits of the process.
     /// </remarks>
-    B98,
+    B98 = 196,
 
     /// <summary>
     /// Load Shedding
@@ -1585,7 +1585,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning a load shedding used to avoid failure of the power system.
     /// </remarks>
-    B99,
+    B99 = 197,
 
     /// <summary>
     /// Remaining Capacity
@@ -1593,7 +1593,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the remaining capacity.
     /// </remarks>
-    C01,
+    C01 = 198,
 
     /// <summary>
     /// Indicator of generation capacity adequacy
@@ -1601,7 +1601,7 @@ public enum BusinessType
     /// <remarks>
     /// Indicator of adequacy, it indicates if there is final generation remaining capacity after SMTA calculation.
     /// </remarks>
-    C02,
+    C02 = 199,
 
     /// <summary>
     /// Income from price divergence without congestions
@@ -1609,7 +1609,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series describes income due to price divergence without congestion between bidding zones.
     /// </remarks>
-    C03,
+    C03 = 200,
 
     /// <summary>
     /// Push-button
@@ -1617,7 +1617,7 @@ public enum BusinessType
     /// <remarks>
     /// The cross-border Push-button service between System Operators.
     /// </remarks>
-    C04,
+    C04 = 201,
 
     /// <summary>
     /// Intertripping
@@ -1625,7 +1625,7 @@ public enum BusinessType
     /// <remarks>
     /// The cross-border Intertripping service between System Operators.
     /// </remarks>
-    C05,
+    C05 = 202,
 
     /// <summary>
     /// Emergency instruction
@@ -1633,7 +1633,7 @@ public enum BusinessType
     /// <remarks>
     /// The cross-border Emergency instruction service between System Operators.
     /// </remarks>
-    C06,
+    C06 = 203,
 
     /// <summary>
     /// Ramp management
@@ -1641,7 +1641,7 @@ public enum BusinessType
     /// <remarks>
     /// The schedule resulting from cross-border Ramp management service between System Operators.
     /// </remarks>
-    C07,
+    C07 = 204,
 
     /// <summary>
     /// Profile smoothing
@@ -1649,7 +1649,7 @@ public enum BusinessType
     /// <remarks>
     /// The schedule resulting from cross-border Profile smoothing service between System Operators.
     /// </remarks>
-    C08,
+    C08 = 205,
 
     /// <summary>
     /// Emergency reallocation deselection
@@ -1657,7 +1657,7 @@ public enum BusinessType
     /// <remarks>
     /// The schedule resulting from cross-border Emergency reallocation deselection service between System Operators.
     /// </remarks>
-    C09,
+    C09 = 206,
 
     /// <summary>
     /// SO-SO-trade
@@ -1665,7 +1665,7 @@ public enum BusinessType
     /// <remarks>
     /// The generic cross border trade between System Operators.
     /// </remarks>
-    C10,
+    C10 = 207,
 
     /// <summary>
     /// Production reduction
@@ -1673,7 +1673,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series providing the volume of production reduced by an energy provider / producer / supplier.
     /// </remarks>
-    C11,
+    C11 = 208,
 
     /// <summary>
     /// Maximum power exchange
@@ -1681,7 +1681,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeseries provides the maximum admissible power flow between two bidding zones respecting operational security limits taking into account N-1 criterion.
     /// </remarks>
-    C12,
+    C12 = 209,
 
     /// <summary>
     /// Maximum power exchange after remedial actions
@@ -1689,7 +1689,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeseries provides the maximum admissible power flow between two bidding zones after remedial actions.
     /// </remarks>
-    C13,
+    C13 = 210,
 
     /// <summary>
     /// Network constraint situation that cannot limit the market
@@ -1697,7 +1697,7 @@ public enum BusinessType
     /// <remarks>
     /// The TimeSeries describes the network elements, that cannot limit the market, to be taken into account to simulate a network constraint during the network load flow studies. The network situation includes the contingencies, the remedial actions, the monitored network elements and the potential additional constraints.
     /// </remarks>
-    C14,
+    C14 = 211,
 
     /// <summary>
     /// Flat participation for all generators or loads
@@ -1705,7 +1705,7 @@ public enum BusinessType
     /// <remarks>
     /// Flat GSK factors of all generators or loads, independently of the size.
     /// </remarks>
-    C15,
+    C15 = 212,
 
     /// <summary>
     /// Proportional to installed capacity of generators
@@ -1713,7 +1713,7 @@ public enum BusinessType
     /// <remarks>
     /// Generators participate relative to their maximum (installed) capacity (MW).
     /// </remarks>
-    C16,
+    C16 = 213,
 
     /// <summary>
     /// Market price and total volume
@@ -1721,7 +1721,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning market price and total volume.
     /// </remarks>
-    C17,
+    C17 = 214,
 
     /// <summary>
     /// Import price
@@ -1729,7 +1729,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning import price (the volume-weighted price average of all accepted bids).
     /// </remarks>
-    C18,
+    C18 = 215,
 
     /// <summary>
     /// Capacity allocated (excluding price)
@@ -1737,7 +1737,7 @@ public enum BusinessType
     /// <remarks>
     /// The business being described concerns capacity allocation and excludes price information.
     /// </remarks>
-    C19,
+    C19 = 216,
 
     /// <summary>
     /// Common Grid Model Equipment
@@ -1745,7 +1745,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeseries provides equipment related to the Common Grid Model (CGM).
     /// </remarks>
-    C20,
+    C20 = 217,
 
     /// <summary>
     /// Exchanged balancing reserve capacity
@@ -1753,7 +1753,7 @@ public enum BusinessType
     /// <remarks>
     /// The balancing reserve capacity exchanged between areas.
     /// </remarks>
-    C21,
+    C21 = 218,
 
     /// <summary>
     /// Shared balancing reserve capacity
@@ -1761,7 +1761,7 @@ public enum BusinessType
     /// <remarks>
     /// The balancing reserve capacity shared between areas.
     /// </remarks>
-    C22,
+    C22 = 219,
 
     /// <summary>
     /// Share of reserve capacity
@@ -1769,7 +1769,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning the share of reserve capacity.
     /// </remarks>
-    C23,
+    C23 = 220,
 
     /// <summary>
     /// Actual reserve capacity
@@ -1777,7 +1777,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning actual reserve capacity.
     /// </remarks>
-    C24,
+    C24 = 221,
 
     /// <summary>
     /// K-factor
@@ -1785,7 +1785,7 @@ public enum BusinessType
     /// <remarks>
     /// K-factor as stated in the SO GL Art. 2 (45). It is also known as Frequency Bias.
     /// </remarks>
-    C25,
+    C25 = 222,
 
     /// <summary>
     /// Frequency Containment Reserve-Normal (FCR-N)
@@ -1793,7 +1793,7 @@ public enum BusinessType
     /// <remarks>
     /// FCR-N is a reserve that is automatically activated in both directions around a set point when the frequency varies between 50.10 Hz and 49.90 Hz after an imbalance.
     /// </remarks>
-    C26,
+    C26 = 223,
 
     /// <summary>
     /// Frequency Containment Reserve-Disturbance (FCR-D)
@@ -1801,7 +1801,7 @@ public enum BusinessType
     /// <remarks>
     /// FCR-D is a reserve that is automatically activated when the frequency falls below 49.90 Hz or rises above 50.1 Hz after an imbalance.
     /// </remarks>
-    C27,
+    C27 = 224,
 
     /// <summary>
     /// Internal trade difference
@@ -1809,7 +1809,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning internal trade difference, within an area, such as a Bidding Zone or Scheduling Area. The internal trade difference is the difference between trades reported from an out party (seller) and an in party (buyer). 
     /// </remarks>
-    C28,
+    C28 = 225,
 
     /// <summary>
     /// Small scale production
@@ -1817,7 +1817,7 @@ public enum BusinessType
     /// <remarks>
     /// Production from small scale production plants.
     /// </remarks>
-    C29,
+    C29 = 226,
 
     /// <summary>
     /// System price
@@ -1825,7 +1825,7 @@ public enum BusinessType
     /// <remarks>
     /// The system price is an unconstrained market clearing reference price. It is calculated without any congestion restrictions by setting capacities to infinity.
     /// </remarks>
-    C30,
+    C30 = 227,
 
     /// <summary>
     /// Wind gust
@@ -1833,7 +1833,7 @@ public enum BusinessType
     /// <remarks>
     /// An increase in the speed of the wind lasting for a short period.
     /// </remarks>
-    C31,
+    C31 = 228,
 
     /// <summary>
     /// Area imbalance
@@ -1841,7 +1841,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series concerning imbalance between planned consumption, production and exchange in an Area.
     /// </remarks>
-    C32,
+    C32 = 229,
 
     /// <summary>
     /// Unintended energy price
@@ -1849,7 +1849,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning the price of the unintended cross-border exchange of energy.
     /// </remarks>
-    C33,
+    C33 = 230,
 
     /// <summary>
     /// Frequency containment process energy
@@ -1857,7 +1857,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries containing the volume of energy resulting from the frequency containment process.
     /// </remarks>
-    C34,
+    C34 = 231,
 
     /// <summary>
     /// Frequency containment process energy price
@@ -1865,7 +1865,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries containing the energy price from the frequency containment process.
     /// </remarks>
-    C35,
+    C35 = 232,
 
     /// <summary>
     /// Ramping period energy
@@ -1873,7 +1873,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries containing the volume of energy exchanged as a result of ramping between different ANES values.
     /// </remarks>
-    C36,
+    C36 = 233,
 
     /// <summary>
     /// Ramping period energy price
@@ -1881,7 +1881,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries containing the price of the energy exchanged as a result of ramping between different ANES values.
     /// </remarks>
-    C37,
+    C37 = 234,
 
     /// <summary>
     /// Frequency deviation
@@ -1889,7 +1889,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning the difference between the actual and the nominal frequency of a synchronous area.
     /// </remarks>
-    C38,
+    C38 = 235,
 
     /// <summary>
     /// Day-Ahead market price
@@ -1897,7 +1897,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning Day-Ahead market prices.
     /// </remarks>
-    C39,
+    C39 = 236,
 
     /// <summary>
     /// Conditional bid
@@ -1905,7 +1905,7 @@ public enum BusinessType
     /// <remarks>
     /// Standard product bid that is conditional on bids submitted outside of common platform.
     /// </remarks>
-    C40,
+    C40 = 237,
 
     /// <summary>
     /// Thermal limit
@@ -1913,7 +1913,7 @@ public enum BusinessType
     /// <remarks>
     /// The current causing a given network element to work outside of the range of safe operating temperatures.
     /// </remarks>
-    C41,
+    C41 = 238,
 
     /// <summary>
     /// Frequency Limit
@@ -1921,7 +1921,7 @@ public enum BusinessType
     /// <remarks>
     /// A constraint related to the containment of frequency deviations within a given area.
     /// </remarks>
-    C42,
+    C42 = 239,
 
     /// <summary>
     /// Voltage limit
@@ -1929,7 +1929,7 @@ public enum BusinessType
     /// <remarks>
     /// The maximum or minimum permissible voltage within normal operation state of a given network element.
     /// </remarks>
-    C43,
+    C43 = 240,
 
     /// <summary>
     /// Current limit
@@ -1937,7 +1937,7 @@ public enum BusinessType
     /// <remarks>
     /// The maximum permissible current within normal operation state of a given network element.
     /// </remarks>
-    C44,
+    C44 = 241,
 
     /// <summary>
     /// Short circuit current limit
@@ -1945,7 +1945,7 @@ public enum BusinessType
     /// <remarks>
     /// The maximum permissible short-circuit current within normal operation state of a given network element.
     /// </remarks>
-    C45,
+    C45 = 242,
 
     /// <summary>
     /// Dynamic stability limit
@@ -1953,7 +1953,7 @@ public enum BusinessType
     /// <remarks>
     /// A maximum permissible load ensuring the control of oscillations in the grid and avoiding the loss of synchronism.
     /// </remarks>
-    C46,
+    C46 = 243,
 
     /// <summary>
     /// Disconnection
@@ -1961,7 +1961,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries describing disconnection of a TSO from a common platform.
     /// </remarks>
-    C47,
+    C47 = 244,
 
     /// <summary>
     /// Intended energy with positive price
@@ -1969,7 +1969,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning the amount of intended energy with prices higher than zero (and including zero).
     /// </remarks>
-    C48,
+    C48 = 245,
 
     /// <summary>
     /// Intended energy with negative price
@@ -1977,7 +1977,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning the amount of intended energy with prices lower than zero (excluding zero).
     /// </remarks>
-    C49,
+    C49 = 246,
 
     /// <summary>
     /// Decopuling
@@ -1985,7 +1985,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing decoupling of an area.
     /// </remarks>
-    C50,
+    C50 = 247,
 
     /// <summary>
     /// Resource capacity unit
@@ -1993,7 +1993,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries containing information about resource capacity units.
     /// </remarks>
-    C51,
+    C51 = 248,
 
     /// <summary>
     /// Resource entry capacity data
@@ -2001,7 +2001,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries containing the resource capacity that can be allocated to an eligible resource capacity operator from another area.
     /// </remarks>
-    C52,
+    C52 = 249,
 
     /// <summary>
     /// Resource capacity obligation data
@@ -2009,7 +2009,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries containing the resource capacity operator obligation to guarantee delivery.
     /// </remarks>
-    C53,
+    C53 = 250,
 
     /// <summary>
     /// Available energy
@@ -2017,7 +2017,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning the available energy.
     /// </remarks>
-    C54,
+    C54 = 251,
 
     /// <summary>
     /// Production curtailment
@@ -2025,7 +2025,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries concerning the curtailment of production.
     /// </remarks>
-    C55,
+    C55 = 252,
 
     /// <summary>
     /// Rounding error
@@ -2033,7 +2033,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries describing a rounding error.
     /// </remarks>
-    C56,
+    C56 = 253,
 
     /// <summary>
     /// Metered frequency
@@ -2041,7 +2041,7 @@ public enum BusinessType
     /// <remarks>
     /// The timeseries provides information about metered frequency.
     /// </remarks>
-    C57,
+    C57 = 254,
 
     /// <summary>
     /// Adjusted TTC to the nominal criteria
@@ -2049,7 +2049,7 @@ public enum BusinessType
     /// <remarks>
     /// The exchange program between two areas which guarantees that the Margin Available for Cross-Zonal Trade (MACZT) fulfils the nominal criteria at least on the most limiting Critical Network Element with Contingency (CNEC) which limits the transfer capacity.
     /// </remarks>
-    C58,
+    C58 = 255,
 
     /// <summary>
     /// Adjusted TTC to the nominal criteria with TSOs limitation
@@ -2057,7 +2057,7 @@ public enum BusinessType
     /// <remarks>
     /// The exchange program between two areas which allows the Margin Available for Cross-Zonal Trade (MACZT) on, at least, the most limiting Critical Network Element with Contingency (CNEC) to get closer to the nominal criteria fulfilment with a limited impact on the rest of the network.
     /// </remarks>
-    C59,
+    C59 = 256,
 
     /// <summary>
     /// Frequency deviation larger than standard deviation
@@ -2065,7 +2065,7 @@ public enum BusinessType
     /// <remarks>
     /// Total time in which the absolute value of the instantaneous frequency deviation was larger than the standard frequency deviation.
     /// </remarks>
-    C60,
+    C60 = 257,
 
     /// <summary>
     /// Frequency deviation larger than maximum deviation
@@ -2073,7 +2073,7 @@ public enum BusinessType
     /// <remarks>
     /// Total time in which the absolute value of the instantaneous frequency deviation was larger than the maximum instantaneous frequency deviation.
     /// </remarks>
-    C61,
+    C61 = 258,
 
     /// <summary>
     /// Frequency deviation not returned to 50%
@@ -2081,7 +2081,7 @@ public enum BusinessType
     /// <remarks>
     /// Number of events in which the absolute value of the instantaneous frequency deviation of the synchronous area exceeded 200 % of the standard frequency deviation as stated in SO GL (EU) regulation Art 131.1.a.vi.
     /// </remarks>
-    C62,
+    C62 = 259,
 
     /// <summary>
     /// Frequency deviation not returned to restoration range
@@ -2089,7 +2089,7 @@ public enum BusinessType
     /// <remarks>
     /// Number of events in which the absolute value of the instantaneous frequency deviation of the synchronous area exceeded 200 % of the standard frequency deviation.
     /// </remarks>
-    C63,
+    C63 = 260,
 
     /// <summary>
     /// Frequency deviation outside recovery range
@@ -2097,7 +2097,7 @@ public enum BusinessType
     /// <remarks>
     /// Number of events for which the absolute value of the instantaneous frequency deviation was outside of the frequency recovery range.
     /// </remarks>
-    C64,
+    C64 = 261,
 
     /// <summary>
     /// Frequency
@@ -2105,7 +2105,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing measurement frequency.
     /// </remarks>
-    C65,
+    C65 = 262,
 
     /// <summary>
     /// Mean value
@@ -2113,7 +2113,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing mean values.
     /// </remarks>
-    C66,
+    C66 = 263,
 
     /// <summary>
     /// Standard deviation
@@ -2121,7 +2121,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing standard deviation.
     /// </remarks>
-    C67,
+    C67 = 264,
 
     /// <summary>
     /// Percentile
@@ -2129,7 +2129,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing percentiles.
     /// </remarks>
-    C68,
+    C68 = 265,
 
     /// <summary>
     /// Measured frequency resolution
@@ -2137,7 +2137,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing the resolution of a measured frequency.
     /// </remarks>
-    C69,
+    C69 = 266,
 
     /// <summary>
     /// Accuracy
@@ -2145,7 +2145,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing measurement accuracy.
     /// </remarks>
-    C70,
+    C70 = 267,
 
     /// <summary>
     /// FRCE outside level 1 range
@@ -2153,7 +2153,7 @@ public enum BusinessType
     /// <remarks>
     /// The number of time intervals in which the average value of the FRCE was outside the Level 1 FRCE range as stated in SO GL. (EU) regulation Art 131.1.b.i.
     /// </remarks>
-    C71,
+    C71 = 268,
 
     /// <summary>
     /// FRCE outside level 2 range
@@ -2161,7 +2161,7 @@ public enum BusinessType
     /// <remarks>
     /// The number of time intervals in which the average value of the FRCE was outside the Level 2 FRCE range as stated in SO GL (EU) regulation. Art 131.1.b.i.
     /// </remarks>
-    C72,
+    C72 = 269,
 
     /// <summary>
     /// FRCE exceeded 60% of FRR capacity
@@ -2169,7 +2169,7 @@ public enum BusinessType
     /// <remarks>
     /// The number of events for which the FRCE exceeded 60 % of the reserve capacity on FRR as stated in SO GL (EU) regulation Art 131.1.b.ii.
     /// </remarks>
-    C73,
+    C73 = 270,
 
     /// <summary>
     /// FRCE exceeded steady state deviation
@@ -2177,7 +2177,7 @@ public enum BusinessType
     /// <remarks>
     /// The number of events for which the absolute value of the FRCE exceeded the maximum steady-state frequency deviation.
     /// </remarks>
-    C74,
+    C74 = 271,
 
     /// <summary>
     /// FRCE calculation and accuracy descriptor
@@ -2185,7 +2185,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing how FRCE is calculated and its accuracy.
     /// </remarks>
-    C75,
+    C75 = 272,
 
     /// <summary>
     /// Forecasted capacity
@@ -2193,7 +2193,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing forecasted capacity.
     /// </remarks>
-    C76,
+    C76 = 273,
 
     /// <summary>
     /// Minimum available capacity
@@ -2201,7 +2201,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing minimum available capacity.
     /// </remarks>
-    C77,
+    C77 = 274,
 
     /// <summary>
     /// Average available capacity
@@ -2209,7 +2209,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing average available capacity.
     /// </remarks>
-    C78,
+    C78 = 275,
 
     /// <summary>
     /// Maximum available capacity
@@ -2217,7 +2217,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing maximum available capacity.
     /// </remarks>
-    C79,
+    C79 = 276,
 
     /// <summary>
     /// Frequency and accuracy descriptor
@@ -2225,7 +2225,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing how system frequency and accuracy are determined.
     /// </remarks>
-    C80,
+    C80 = 277,
 
     /// <summary>
     /// Long-Term internal redispatch
@@ -2233,7 +2233,7 @@ public enum BusinessType
     /// <remarks>
     /// A time series describing long-term redispatch to relieve Scheduling Area internal congestion.
     /// </remarks>
-    C81,
+    C81 = 278,
 
     /// <summary>
     /// Other unavailability
@@ -2241,7 +2241,7 @@ public enum BusinessType
     /// <remarks>
     /// This is an unplanned unavailability. Not considered by market participants as a planned maintenance.
     /// </remarks>
-    C82,
+    C82 = 279,
 
     /// <summary>
     /// Faster than standard FAT
@@ -2249,7 +2249,7 @@ public enum BusinessType
     /// <remarks>
     /// Bids that can support a �Full Activation Time� (FAT) that is faster than standard FAT. Fast activation can be done for bids with activation time shorter than the minimum requirement for the standard product. When circumstances call for it, the TSO can order activation of such bids on a shorter notice.
     /// </remarks>
-    C83,
+    C83 = 280,
 
     /// <summary>
     /// Faster than standard deactivation time
@@ -2257,7 +2257,7 @@ public enum BusinessType
     /// <remarks>
     /// Fast deactivation can be done for bids with activation time shorter than the minimum requirement for the standard product. When circumstances call for it, the TSO can order activation of such bids on a shorter notice.
     /// </remarks>
-    C84,
+    C84 = 281,
 
     /// <summary>
     /// Slower than standard FAT
@@ -2265,7 +2265,7 @@ public enum BusinessType
     /// <remarks>
     /// Bids that can support a Full Activation Time (FAT) that is slower than standard FAT.
     /// </remarks>
-    C85,
+    C85 = 282,
 
     /// <summary>
     /// Remedial action cost summary
@@ -2273,7 +2273,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries summarizing all incurred costs and/or revenues per party related to the activated remedial actions eligible to Cost Sharing.
     /// </remarks>
-    C86,
+    C86 = 283,
 
     /// <summary>
     /// Settlement result
@@ -2281,7 +2281,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries representing the cost sharing settlement results between parties (i.e. which party will be paying and/or receiving money for the concerned period).
     /// </remarks>
-    C87,
+    C87 = 284,
 
     /// <summary>
     /// Reserved cross zonal capacity
@@ -2289,7 +2289,7 @@ public enum BusinessType
     /// <remarks>
     /// The reserved cross zonal capacity for system operator needs (EBGL art. 38(1)(b) and art. 41.).
     /// </remarks>
-    C88,
+    C88 = 285,
 
     /// <summary>
     /// Energy reserves
@@ -2297,7 +2297,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries describing energy reserves.
     /// </remarks>
-    C89,
+    C89 = 286,
 
     /// <summary>
     /// Combined dynamic constraint
@@ -2305,7 +2305,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series describes a combined dynamic constraint, being defined as a limit on the sum of power flows on a set of network elements or partial flows on a set of network elements for the purpose to respect dynamic stability limits.
     /// </remarks>
-    C90,
+    C90 = 287,
 
     /// <summary>
     /// Anonymised constraint
@@ -2313,7 +2313,7 @@ public enum BusinessType
     /// <remarks>
     /// The time series describes an anonymised constraint.
     /// </remarks>
-    C91,
+    C91 = 288,
 
     /// <summary>
     /// Synchronous condenser activation
@@ -2321,7 +2321,7 @@ public enum BusinessType
     /// <remarks>
     /// Activates a number of generators or other units in synchronous condenser mode.
     /// </remarks>
-    C92,
+    C92 = 289,
 
     /// <summary>
     /// Permission administration details
@@ -2329,7 +2329,7 @@ public enum BusinessType
     /// <remarks>
     /// A timeseries describing permission details such as authorisations, licenses or related regulatory requirements.
     /// </remarks>
-    C93,
+    C93 = 290,
 
     /// <summary>
     /// Maximum capacity value of AC border flow
@@ -2337,7 +2337,7 @@ public enum BusinessType
     /// <remarks>
     /// Maximum flow on an AC border between two areas (capacity)
     /// </remarks>
-    C94,
+    C94 = 291,
 
     /// <summary>
     /// Initial forecast value of AC border flow
@@ -2345,6 +2345,6 @@ public enum BusinessType
     /// <remarks>
     /// Initial flow on an AC border between two areas (forecast)
     /// </remarks>
-    C95
+    C95 = 292
 }
 

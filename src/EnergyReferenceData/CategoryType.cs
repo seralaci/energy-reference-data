@@ -17,7 +17,7 @@ public enum CategoryType
     /// <remarks>
     /// The auction is for a base period.
     /// </remarks>
-    A01,
+    A01 = 1,
 
     /// <summary>
     /// Peak
@@ -25,7 +25,7 @@ public enum CategoryType
     /// <remarks>
     /// The auction is for a peak period.
     /// </remarks>
-    A02,
+    A02 = 2,
 
     /// <summary>
     /// Off peak
@@ -33,7 +33,7 @@ public enum CategoryType
     /// <remarks>
     /// The auction is for an off peak period.
     /// </remarks>
-    A03,
+    A03 = 3,
 
     /// <summary>
     /// Hourly
@@ -41,6 +41,6 @@ public enum CategoryType
     /// <remarks>
     /// The auction is for an hourly period.
     /// </remarks>
-    A04
+    A04 = 4
 }
 
