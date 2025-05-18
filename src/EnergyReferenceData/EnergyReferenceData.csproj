@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <Version>0.1.4</Version>
+        <PackageId>EnergyReferenceData</PackageId>
+        <PackageDescription>
+            ENTSO-E codelist 92 Release
+        </PackageDescription>
+        <Summary>Common reference data to be used for Energy related business processes</Summary>
+        <Description>Common reference data to be used for Energy related business processes</Description>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+</Project>
